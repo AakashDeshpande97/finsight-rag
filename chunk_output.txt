@@ -1,0 +1,33 @@
+ACRES Commercial Realty Corp.       |   739 chunks | avg 927 chars | max 2336
+Aptevo Therapeutics Inc.            |   566 chunks | avg 962 chars | max 2932
+Downer EDI Limited                  |   543 chunks | avg 937 chars | max 3326
+Odyssey Gold Limited                |   286 chunks | avg 948 chars | max 1742
+NextNav Inc.                        |   449 chunks | avg 963 chars | max 1919
+
+Total: 2583 chunks
+
+===== TEXT CHUNK | id=0981826b4b43a88920f3e01c71ae73539bab84cc_p84_c1 | 1108 chars =====
+Company: Aptevo Therapeutics Inc. | Page: 85
+
+#### *Use of Estimates*
+
+The preparation of financial statements in conformity with GAAP requires estimates and assumptions that affect the reported amounts of assets and liabilities, revenues and expenses, and related disclosures of contingent liabilities in the consolidated financial statements and accompanying notes. Estimates are used for, but not limited to, forecasted royalties, effective interest rates, clinical accruals, useful lives of equipment, commitments and contingencies, stock-based compensation, and incremental borrowing rate (IBR) used for our lease. Given the global economic climate and additional or unforeseen effects from the ongoing COVID-19 pandemic, these estimates are becoming more challenging, and actual results could differ materially from those estimates.
+
+#### *Cash Equivalents*
+
+Cash equivalents are highly liquid investments with a maturity of 90 days or less at the date of purchase and include time deposits and investments in money market funds with commercial banks and financial institutions.
+
+#### *Restricted Cash*
+
+===== TABLE CHUNK | id=0a61a353b1ea9fd9b8f63b60239634ca3007d58f_p48_c0 | 1067 chars =====
+Company: Downer EDI Limited | Page: 49
+
+| Termination | Mr Fenn can resign: | | | | |
+|---|---|--|--|--|--|
+| | (a)<br>By providing six months' written notice; or | | | | |
+| | (b)<br>Immediately in circumstances where there is a fundamental change in his role or responsibilities.<br>In these circumstances, Mr Fenn is entitled to a payment in lieu of 12 months' notice. | | | | |
+| | Downer can terminate Mr Fenn's employment: | | | | |
+| | (a)<br>Immediately for misconduct or other circumstances justifying summary dismissal; or | | | | |
+| | (b)<br>By providing 12 months' written notice. | | | | |
+| | When notice is required, Downer can make a payment in lieu of notice of all or part of any notice period<br>(calculated based on Mr Fenn's fixed annual remuneration). | | | | |
+| | If Mr Fenn resigns because ill health prevents him from continuing his duties, he will receive a payment in<br>recognition of his past services equivalent to 12 months' fixed remuneration. At the discretion of the Board,<br>his shares under the LTI plan may also vest. | | | | |
