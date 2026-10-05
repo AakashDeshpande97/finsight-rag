@@ -1,0 +1,4224 @@
+Total files: 4563
+File types: Counter({'.jpeg': 4260, '.json': 102, '.pdf': 100, '.md': 100, '.zip': 1})
+
+Markdown files: 100 | total 66.7 MB | smallest 31 KB | largest 4411 KB
+
+--- First 1500 characters of 4e3efdc544140b872a59e124443a64c34f356911.md ---
+{0}------------------------------------------------
+
+![](_page_0_Picture_0.jpeg)
+
+**2022 ANNUAL REPORT**
+
+{1}------------------------------------------------
+
+**4**
+
+Throughout our history, we've grounded ourselves in the principles and experiences that inform how we do business — and charted where we go next. We have a tried and true business model that has served our shareholders, customers, and employees well for 110 years.
+
+### **CONTENTS**
+
+**04**
+
+- Letter to Shareholders
+- Bancshares Board of Directors
+- 2022 Year in Review
+- Bank Locations
+- 110 Years of Guaranty
+- Stock Price, EPS, & Dividends Chart
+- Financial Highlights
+- Growth Trends
+- Bank Board of Directors
+
+{2}------------------------------------------------
+
+Guaranty Bancshares realized strong financial results during the year. Total loans for the Company grew \$470.1 million during the year, to a record high of \$2.4 billion. Total deposits ended the year with growth of \$10.3 million and, likewise, a new record total of \$2.7 billion. One of our primary goals for 2022 was to exceed the previous year's net income, which was a tall order given that 2021 included over \$7.8 million in PPP-related extraordinary income and a reverse provision to our loan loss reserves of \$1.7 million. I'm pleased to say we achieved this goal.
+
+The Company generated net income of \$40.4 million, compared to \$39.8 million in the prior year, a \$641,000 or a 1.6% increase. We accomplished this result even after taking a \$3.4 mil
+
+--- questions.json: list with 100 items ---
+[
+  {
+    "text": "For Ziff Davis, Inc., what was the value of Cloud storage capacity (TB) at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number"
+  },
+  {
+    "text": "Did Liberty Broadband Corporation announce a share buyback plan in the annual report? If there is no mention, return False.",
+    "kind": "boolean"
+  }
+]
+
+--- subset.json: list with 100 items ---
+[
+  {
+    "sha1": "0279901b645e568591ad95dac2c2bf939ef0c00d",
+    "cur": "USD",
+    "company_name": "ACRES Commercial Realty Corp.",
+    "major_industry": "Financial Services",
+    "mentions_recent_mergers_and_acquisitions": false,
+    "has_leadership_changes": false,
+    "has_layoffs": false,
+    "has_executive_compensation": true,
+    "has_rnd_investment_numbers": false,
+    "has_new_product_launches": false,
+    "has_capital_expenditures": false,
+    "has_financial_performance_indicators": true,
+    "has_dividend_policy_changes": false,
+    "has_share_buyback_plans": true,
+    "has_capital_structure_changes": false,
+    "mentions_new_risk_factors": true,
+    "has_guidance_updates": true,
+    "has_regulatory_or_litigation_issues": false,
+    "has_strategic_restructuring": false,
+    "has
+
+--- 0279901b645e568591ad95dac2c2bf939ef0c00d_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 Annual Report",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            260.4287109375,
+            662.44921875
+          ],
+          [
+            522.3515625,
+            662.44921875
+          ],
+          [
+            522.3515625,
+            691.06640625
+          ],
+          [
+            260.4287109375,
+            691.06640625
+          ]
+        ]
+      },
+      {
+        "title": "Selective Growth & Attractive Financing Vehicles",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            71.49462890625,
+            314.982421875
+          ],
+          [
+            330.205078125,
+            314.982421875
+          ],
+          
+
+--- 0981826b4b43a88920f3e01c71ae73539bab84cc_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            160.9521484375,
+            31.04052734375
+          ],
+          [
+            437.5341796875,
+            31.04052734375
+          ],
+          [
+            437.5341796875,
+            58.81268310546875
+          ],
+          [
+            160.9521484375,
+            58.81268310546875
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            262.34619140625,
+            73.5927734375
+          ],
+          [
+            335.99468994140625,
+            73.5927734375
+     
+
+--- 0a61a353b1ea9fd9b8f63b60239634ca3007d58f_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            54.601806640625,
+            114.7640380859375
+          ],
+          [
+            149.29928588867188,
+            114.7640380859375
+          ],
+          [
+            149.29928588867188,
+            146.7640380859375
+          ],
+          [
+            54.601806640625,
+            146.7640380859375
+          ]
+        ]
+      },
+      {
+        "title": "Contents",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            56.38427734375,
+            37.9892578125
+          ],
+          [
+            167.916015625,
+            37.9892578125
+          ],
+          [
+ 
+
+--- 0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL\nREPORT\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            49.3271484375,
+            320.2724609375
+          ],
+          [
+            311.96875,
+            320.2724609375
+          ],
+          [
+            311.96875,
+            524.1284790039062
+          ],
+          [
+            49.3271484375,
+            524.1284790039062
+          ]
+        ]
+      },
+      {
+        "title": "Corporate Directory",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            91.669921875,
+            54.47509765625
+          ],
+          [
+            335.83203125,
+            54.47509765625
+          ],
+          [
+            335.83
+
+--- 0f111d244aee3d976684995a222fa177a64571c4_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            206.7890625,
+            34.152099609375
+          ],
+          [
+            404.0928649902344,
+            34.152099609375
+          ],
+          [
+            404.0928649902344,
+            65.4205322265625
+          ],
+          [
+            206.7890625,
+            65.4205322265625
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            279.10546875,
+            88.55859375
+          ],
+          [
+            332.57086181640625,
+            
+
+--- 105688726e097505beef4934896193ac51295037_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022\nAnnual Report",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            69.91650390625,
+            244.212890625
+          ],
+          [
+            312.55078125,
+            244.212890625
+          ],
+          [
+            312.55078125,
+            349.3074645996094
+          ],
+          [
+            69.91650390625,
+            349.3074645996094
+          ]
+        ]
+      },
+      {
+        "title": "Corporate\nDirectory",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            69.62548828125,
+            116.3505859375
+          ],
+          [
+            192.943359375,
+            116.3505859375
+          ],
+          [
+         
+
+--- 12bff07b957b1c8f8cad9d917ca18005720cce9b_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "\"\n\nEVERYTHING SHE WANTS.\nWHERE SHE WANTS IT.\nWHEN SHE WANTS IT.\n\" PERFORMANCE HIGHLIGHTS 04",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            149.291015625,
+            563.251953125
+          ],
+          [
+            881.8016357421875,
+            561.607421875
+          ],
+          [
+            881.8016357421875,
+            706.3067169189453
+          ],
+          [
+            149.291015625,
+            707.1484375
+          ]
+        ]
+      },
+      {
+        "title": "C O N T E N T S",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            72.69259643554688,
+            485.5478515625
+          ],
+          [
+         
+
+--- 13999998018cc53440310d94a26d1e8957e2277f_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            142.3916015625,
+            76.0869140625
+          ],
+          [
+            461.60589599609375,
+            76.0869140625
+          ],
+          [
+            461.60589599609375,
+            120.724365234375
+          ],
+          [
+            142.3916015625,
+            120.724365234375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            261.0,
+            136.705078125
+          ],
+          [
+            346.11865234375,
+            136.
+
+--- 14fa568899745270c4ff2c10073f97f2c2e7764b_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Growth-focused. \nResilient. \nSustainable.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            71.48880767822266,
+            49.9833984375
+          ],
+          [
+            458.60882568359375,
+            49.9833984375
+          ],
+          [
+            458.60882568359375,
+            201.09375
+          ],
+          [
+            71.48880767822266,
+            201.09375
+          ]
+        ]
+      },
+      {
+        "title": "Inside this report",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            63.0,
+            61.1015625
+          ],
+          [
+            165.22421264648438,
+            61.1015625
+          ],
+          
+
+--- 1a12ef3f11a64e92eeca39e493a17d2860c014a6_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            123.99169921875,
+            44.991943359375
+          ],
+          [
+            469.283203125,
+            44.991943359375
+          ],
+          [
+            469.283203125,
+            87.59539794921875
+          ],
+          [
+            123.99169921875,
+            87.59539794921875
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            248.12841796875,
+            94.482421875
+          ],
+          [
+            344.56640625,
+            
+
+--- 1ab89c81bdb49d4bfba2202eeb8e1c93bed414c7_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            265.25146484375,
+            45.7364501953125
+          ],
+          [
+            333.23486328125,
+            45.7364501953125
+          ],
+          [
+            333.23486328125,
+            54.88623046875
+          ],
+          [
+            265.25146484375,
+            54.88623046875
+          ]
+        ]
+      },
+      {
+        "title": "Washington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            236.19873046875,
+            65.31146240234375
+          ],
+          [
+            345.0361633300781,
+            65.31146240234375
+          ],
+      
+
+--- 1af8f906e34af6e0acfe4f73e37093bbe34700f3_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "1. Company details",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            27.319091796875,
+            88.3935546875
+          ],
+          [
+            119.28499603271484,
+            88.3935546875
+          ],
+          [
+            119.28499603271484,
+            100.213623046875
+          ],
+          [
+            27.319091796875,
+            100.213623046875
+          ]
+        ]
+      },
+      {
+        "title": "2. Results for announcement to the market\n$'000\nRevenues from ordinary activities up 371.1% to 91,682\nLoss from ordinary activities after tax attributable to the owners of \nBetMakers Technology Group Ltd up 411.1% to (89,234)\nLoss for the year attributable to t
+
+--- 1bd670f9cdf088266db849722c3aded77a2f4894_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            108.2578125,
+            205.6588134765625
+          ],
+          [
+            487.7421875,
+            205.6588134765625
+          ],
+          [
+            487.7421875,
+            343.63079833984375
+          ],
+          [
+            108.2578125,
+            343.63079833984375
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            178.8291015625,
+            149.755126953125
+          ],
+          [
+            252.7470703125,
+            149.755126953125
+          ],
+          [
+            252.747070
+
+--- 23b2c590c4887dfb86761730dd7156fe3b216ab7_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            41.7633056640625,
+            63.006591796875
+          ],
+          [
+            331.49169921875,
+            63.006591796875
+          ],
+          [
+            331.49169921875,
+            124.5941162109375
+          ],
+          [
+            41.7633056640625,
+            124.5941162109375
+          ]
+        ]
+      },
+      {
+        "title": "Selected Financial Highlights",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            33.99169921875,
+            21.19140625
+          ],
+          [
+            215.135498046875,
+            21.19140625
+          ],
+          [
+        
+
+--- 2cdfd39bbf896b0f6651ebb0fe697cdf8c7ef0e8_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\n(Mark one)\n☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(D) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended December 31, 2022\nor\n☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(D) OF THE SECURITIES EXCHANGE ACT\nOF 1934\nCommission File Number 000-15006\nCELLDEX THERAPEUTICS, INC.\n(Exact name of registrant as specified in its charter)\nDelaware 13-3191702\nState or other jurisdiction of\nincorporation or organization\n(I.R.S. Employer\nIdentification No.)\nPerryville III Building, 53 Frontage Road, Suite 220, Hampton, New Jersey 08827\n(Address of principal executive offices) (Zip Code)\nRegistrant's telephone number, inc
+
+--- 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 highlights",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            42.27001953125,
+            91.557373046875
+          ],
+          [
+            168.7890625,
+            91.557373046875
+          ],
+          [
+            168.7890625,
+            112.44482421875
+          ],
+          [
+            42.27001953125,
+            112.44482421875
+          ]
+        ]
+      },
+      {
+        "title": "Statutory profit/(loss) before tax",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            41.287841796875,
+            315.95556640625
+          ],
+          [
+            171.1171875,
+            315.95556640625
+          ],
+          [
+
+
+--- 2e315764be39701457b88c23f70c5ddede4b2453_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Delivering for \ncustomers on \nevery journey",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            57.99648506151143,
+            177.9296875
+          ],
+          [
+            430.01898193359375,
+            177.9296875
+          ],
+          [
+            430.01898193359375,
+            371.2890625
+          ],
+          [
+            57.99648506151143,
+            371.2890625
+          ]
+        ]
+      },
+      {
+        "title": "1. Strategic report 2. Governance",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            60.0,
+            138.671875
+          ],
+          [
+            1047.9443359375,
+            138.671875
+         
+
+--- 2fd79ae4ebe4943384c119eb1d1e9286ba3c5074_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            206.0419921875,
+            45.19775390625
+          ],
+          [
+            403.6133117675781,
+            45.19775390625
+          ],
+          [
+            403.6133117675781,
+            94.5355224609375
+          ],
+          [
+            206.0419921875,
+            94.5355224609375
+          ]
+        ]
+      },
+      {
+        "title": "x Annual Report Pursuant To Section 13 or 15(d) Of The Securities Exchange Act of 1934",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            16.8837890625,
+
+
+--- 30f64d1043f4cb425eb636763580ae27094ffef1_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            39.744140625,
+            30.816650390625
+          ],
+          [
+            570.1640625,
+            30.816650390625
+          ],
+          [
+            570.1640625,
+            116.015625
+          ],
+          [
+            39.744140625,
+            116.015625
+          ]
+        ]
+      },
+      {
+        "title": "1-800-FLOWERS.COM, INC.\nLETTER TO SHAREHOLDERS",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            163.16015625,
+            74.10498046875
+          ],
+          [
+            445.8515625,
+            74.10498046875
+          ],
+          [
+            445.85156
+
+--- 31a60b930e0f1034afff6e2d1e406e7d9141b2a1_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES \nSECURITIES AND EXCHANGE COMMISSION \nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            202.1572265625,
+            75.16845703125
+          ],
+          [
+            410.84979248046875,
+            75.16845703125
+          ],
+          [
+            410.84979248046875,
+            109.1124267578125
+          ],
+          [
+            202.1572265625,
+            109.1124267578125
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            281.197265625,
+            112.8251953125
+          ],
+          [
+            330.5218505859375,
+
+--- 31e16caf2a6d45fb9cc41fb158b49933df4895f7_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "CONSOLIDATED FINANCIAL STATEMENTS",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            185.4140625,
+            189.6328125
+          ],
+          [
+            463.79998779296875,
+            189.6328125
+          ],
+          [
+            463.79998779296875,
+            207.85394287109375
+          ],
+          [
+            185.4140625,
+            207.85394287109375
+          ]
+        ]
+      },
+      {
+        "title": "ODYSSEY GROUP HOLDINGS, INC.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            212.8520050048828,
+            229.2890625
+          ],
+          [
+            438.77203369140625,
+            229.2890625
+      
+
+--- 35839effbc332f23d5f34263aab3dcb2c6976420_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            167.34375,
+            72.59661865234375
+          ],
+          [
+            430.90460205078125,
+            72.59661865234375
+          ],
+          [
+            430.90460205078125,
+            105.61419677734375
+          ],
+          [
+            167.34375,
+            105.61419677734375
+          ]
+        ]
+      },
+      {
+        "title": "BLUE APRON HOLDINGS, INC.",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            235.99847412109375,
+            71.97802734375
+          ],
+          [
+            3
+
+--- 36dd058d3237202cbb94139611c8b8a35ff8c158_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            159.49951171875,
+            72.54217529296875
+          ],
+          [
+            437.1510314941406,
+            72.54217529296875
+          ],
+          [
+            437.1510314941406,
+            105.25
+          ],
+          [
+            159.49951171875,
+            105.25
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K\n___________________________________________________________",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            191.09841918945312,
+            123.8421630859375
+          ],
+          [
+   
+
+--- 3bb894b4201667baf60b0b2c8a47109fa2357acb_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "RECTIFIER TECHNOLOGIES LTD",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            100.75900268554688,
+            245.4462890625
+          ],
+          [
+            501.4482727050781,
+            245.4462890625
+          ],
+          [
+            501.4482727050781,
+            273.4033203125
+          ],
+          [
+            100.75900268554688,
+            273.4033203125
+          ]
+        ]
+      },
+      {
+        "title": "ABN: 82 058 010 692",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            185.78790283203125,
+            280.8037109375
+          ],
+          [
+            414.9803466796875,
+            280.8037109375
+      
+
+--- 3e5ccdb58faf901e75e31f154cb8330869ca5efa_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL REPORT\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            46.1259765625,
+            727.705078125
+          ],
+          [
+            253.3291015625,
+            727.705078125
+          ],
+          [
+            253.3291015625,
+            786.7942276000977
+          ],
+          [
+            46.1259765625,
+            786.7942276000977
+          ]
+        ]
+      },
+      {
+        "title": "CORPORATE DIRECTORY",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            58.42138671875,
+            54.166748046875
+          ],
+          [
+            318.8956604003906,
+            54.166748046875
+          ],
+          [
+  
+
+--- 3f36d4f26ada778d89cf5a7344be0b9e9a5223a3_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL REPORT\n2023 PROXY STATEMENT",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            284.484375,
+            419.2513732910156
+          ],
+          [
+            542.671875,
+            419.2513732910156
+          ],
+          [
+            542.671875,
+            468.31640625
+          ],
+          [
+            284.484375,
+            468.31640625
+          ]
+        ]
+      },
+      {
+        "title": "THE\nORIGIN VISI N",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            99.6591796875,
+            31.590087890625
+          ],
+          [
+            513.38671875,
+            31.590087890625
+          ],
+          [
+         
+
+--- 446545ae548543d8744f8d885ff75face3424ba4_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "CONTENTS",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            41.113037109375,
+            43.6036376953125
+          ],
+          [
+            142.626708984375,
+            43.6036376953125
+          ],
+          [
+            142.626708984375,
+            65.9324951171875
+          ],
+          [
+            41.113037109375,
+            65.9324951171875
+          ]
+        ]
+      },
+      {
+        "title": "LIBERTY BROADBAND CORPORATION",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            94.552734375,
+            62.736328125
+          ],
+          [
+            499.1572265625,
+            62.736328125
+          ],
+          [
+  
+
+--- 4d3e52b69b4b5366e54ce87cf641b01b1419bdee_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            119.35107421875,
+            43.1312255859375
+          ],
+          [
+            473.47381591796875,
+            43.1312255859375
+          ],
+          [
+            473.47381591796875,
+            78.3731689453125
+          ],
+          [
+            119.35107421875,
+            78.3731689453125
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            255.95947265625,
+            92.50347900390625
+          ],
+          [
+            334.9830017089844,
+            92.5
+
+--- 4e3efdc544140b872a59e124443a64c34f356911_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            128.9443359375,
+            311.30859375
+          ],
+          [
+            483.50390625,
+            311.30859375
+          ],
+          [
+            483.50390625,
+            510.08203125
+          ],
+          [
+            128.9443359375,
+            510.08203125
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            175.1220703125,
+            246.7265625
+          ],
+          [
+            438.7939453125,
+            246.7265625
+          ],
+          [
+            438.7939453125,
+            414.94921875
+          ],
+
+--- 51bae8eeb78cf7d8d96c5cb66c36c41c6bd71491_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "NOTICE OF 2023 ANNUAL MEETING OF STOCKHOLDERS",
+        "heading_level": null,
+        "page_id": 3,
+        "polygon": [
+          [
+            172.5732421875,
+            132.84228515625
+          ],
+          [
+            423.7130126953125,
+            132.84228515625
+          ],
+          [
+            423.7130126953125,
+            143.80224609375
+          ],
+          [
+            172.5732421875,
+            143.80224609375
+          ]
+        ]
+      },
+      {
+        "title": "Cautionary Note Regarding Forward-Looking Statements",
+        "heading_level": null,
+        "page_id": 4,
+        "polygon": [
+          [
+            175.3800048828125,
+            34.13177490234375
+          ],
+          [
+            41
+
+--- 53a00624418f6c5c2d044344a4125bba7743614f_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 Annual Report\nMainStreet Bancshares, Inc.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            31.695499420166016,
+            267.506591796875
+          ],
+          [
+            564.2034912109375,
+            267.506591796875
+          ],
+          [
+            564.2034912109375,
+            376.046875
+          ],
+          [
+            31.695499420166016,
+            376.046875
+          ]
+        ]
+      },
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 4,
+        "polygon": [
+          [
+            168.28318786621094,
+            88.530029296875
+          ],
+    
+
+--- 53aa4bfb3b29d7fc064e97626fc4f860942ca9fd_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Starvest plc",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            251.5830078125,
+            222.21728515625
+          ],
+          [
+            336.2833557128906,
+            222.21728515625
+          ],
+          [
+            336.2833557128906,
+            239.89599609375
+          ],
+          [
+            251.5830078125,
+            239.89599609375
+          ]
+        ]
+      },
+      {
+        "title": "CONTENTS",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            27.973876953125,
+            98.774658203125
+          ],
+          [
+            92.89927673339844,
+            98.774658203125
+          ],
+          [
+           
+
+--- 553afbf09b6d83166b17acb02431c6cf38e4defc_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            213.828125,
+            37.43878173828125
+          ],
+          [
+            382.82574462890625,
+            37.43878173828125
+          ],
+          [
+            382.82574462890625,
+            66.967041015625
+          ],
+          [
+            213.828125,
+            66.967041015625
+          ]
+        ]
+      },
+      {
+        "title": "☒ ANNUAL REPORT UNDER SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            115.33935546875,
+            92.29
+
+--- 5a24fa827d172a7669eca206b2a5f47c2b19b48d_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            142.2136688232422,
+            56.94189453125
+          ],
+          [
+            457.1916198730469,
+            56.94189453125
+          ],
+          [
+            457.1916198730469,
+            91.06591796875
+          ],
+          [
+            142.2136688232422,
+            91.06591796875
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            249.2724609375,
+            110.81597900390625
+          ],
+          [
+            347.070556640625,
+            110.8159790
+
+--- 5bb5f71d1457f3272adab97d64a79c300da75cea_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "What science can do",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            44.234375,
+            116.3505859375
+          ],
+          [
+            391.70703125,
+            116.3505859375
+          ],
+          [
+            391.70703125,
+            157.4638671875
+          ],
+          [
+            44.234375,
+            157.4638671875
+          ]
+        ]
+      },
+      {
+        "title": "Science can...\n Science can...",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            26.115798950195312,
+            92.9674072265625
+          ],
+          [
+            446.63153076171875,
+            92.9674072265625
+          ],
+          [
+
+--- 5f226fe96206888930e3baaf0bff70d4b0a1db40_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            161.63046264648438,
+            45.54217529296875
+          ],
+          [
+            437.1510314941406,
+            45.54217529296875
+          ],
+          [
+            437.1510314941406,
+            72.9876708984375
+          ],
+          [
+            161.63046264648438,
+            72.9876708984375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            261.329345703125,
+            98.6204833984375
+          ],
+          [
+            335.99468994140625,
+         
+
+--- 6159f86f38ec4f82453d99a01c22f1847de133c6_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            141.632080078125,
+            86.3892822265625
+          ],
+          [
+            454.5140075683594,
+            86.3892822265625
+          ],
+          [
+            454.5140075683594,
+            123.33984375
+          ],
+          [
+            141.632080078125,
+            123.33984375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            255.95458984375,
+            138.34619140625
+          ],
+          [
+            341.04412841796875,
+            138.346191406
+
+--- 6406e378c1f49a29c836633f187c271b30b50183_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL REPORT\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            372.5,
+            723.5550079345703
+          ],
+          [
+            547.109375,
+            723.5550079345703
+          ],
+          [
+            547.109375,
+            828.7350006103516
+          ],
+          [
+            372.5,
+            828.7350006103516
+          ]
+        ]
+      },
+      {
+        "title": "Contents",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            68.02490234375,
+            91.785400390625
+          ],
+          [
+            113.85986328125,
+            91.785400390625
+          ],
+          [
+            113.85986328125,
+  
+
+--- 6529fba868216a923407fb0d4e15a811a8e89ebc_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "IPL ANNUAL REPORT 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            143.6162109375,
+            39.9312744140625
+          ],
+          [
+            452.23828125,
+            39.9312744140625
+          ],
+          [
+            452.23828125,
+            72.6163330078125
+          ],
+          [
+            143.6162109375,
+            72.6163330078125
+          ]
+        ]
+      },
+      {
+        "title": "Incitec Pivot Limited",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            44.052490234375,
+            46.355224609375
+          ],
+          [
+            135.9232940673828,
+            46.355224609375
+          ],
+      
+
+--- 67185fca2a09b3c46ee961b2c1ae160dab8b5231_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Uniquely \npositioned to \nserve a changing \nworld",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            56.748046875,
+            200.6328125
+          ],
+          [
+            408.1914978027344,
+            200.6328125
+          ],
+          [
+            408.1914978027344,
+            393.04296875
+          ],
+          [
+            56.748046875,
+            393.04296875
+          ]
+        ]
+      },
+      {
+        "title": "Specialist expertise",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            666.650390625,
+            628.2109375
+          ],
+          [
+            816.064453125,
+            628.2109375
+          ],
+    
+
+--- 674a255d82495ef40189645697460801193e5a2d_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            43.87060546875,
+            105.142578125
+          ],
+          [
+            269.48046875,
+            105.142578125
+          ],
+          [
+            269.48046875,
+            157.0234375
+          ],
+          [
+            43.87060546875,
+            157.0234375
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            43.14306640625,
+            200.81640625
+          ],
+          [
+            266.861328125,
+            200.81640625
+          ],
+          [
+            266.861328125,
+            227.64453125
+          ],
+
+--- 682de8e45fd9688f3452bc0e18257132a8f3cff6_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            178.20436096191406,
+            54.3955078125
+          ],
+          [
+            426.73504638671875,
+            54.3955078125
+          ],
+          [
+            426.73504638671875,
+            78.765869140625
+          ],
+          [
+            178.20436096191406,
+            78.765869140625
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K\n___________________________________________________________________",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            220.40664672851562,
+            106.3402099609375
+  
+
+--- 696ddc4c80febe0f1559ed3b1272487c74ca91cc_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            157.439453125,
+            388.931640625
+          ],
+          [
+            438.560546875,
+            388.931640625
+          ],
+          [
+            438.560546875,
+            431.6670227050781
+          ],
+          [
+            157.439453125,
+            431.6670227050781
+          ]
+        ]
+      },
+      {
+        "title": "Key figures",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            33.9033203125,
+            29.6015625
+          ],
+          [
+            227.044189453125,
+            29.6015625
+          ],
+          [
+            227.044189453125,
+
+
+--- 6d76ccb75bbf1b27ca60b8419c5343ac050cebb0_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            40.52392578125,
+            285.94287109375
+          ],
+          [
+            295.1947326660156,
+            285.94287109375
+          ],
+          [
+            295.1947326660156,
+            318.42236328125
+          ],
+          [
+            40.52392578125,
+            318.42236328125
+          ]
+        ]
+      },
+      {
+        "title": "Cautionary Statement",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            66.7439956665039,
+            85.412841796875
+          ],
+          [
+            184.6494140625,
+            85.412841796875
+          ],
+       
+
+--- 6e36d57320ec525da93b3ce2c7269580c746475b_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "NOTICE OF ANNUAL GENERAL AND SPECIAL MEETING OF SHAREHOLDERS",
+        "heading_level": null,
+        "page_id": 4,
+        "polygon": [
+          [
+            99.11990356445312,
+            135.931640625
+          ],
+          [
+            515.58251953125,
+            135.931640625
+          ],
+          [
+            515.58251953125,
+            148.88671875
+          ],
+          [
+            99.11990356445312,
+            148.88671875
+          ]
+        ]
+      },
+      {
+        "title": "May 17, 2023",
+        "heading_level": null,
+        "page_id": 4,
+        "polygon": [
+          [
+            274.1748046875,
+            158.16796875
+          ],
+          [
+            340.062744140625,
+            158.16796875
+
+
+--- 71d137454a1524843e1f49b34603438510232919_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Report & Accounts 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            256.369140625,
+            93.453369140625
+          ],
+          [
+            561.208984375,
+            93.453369140625
+          ],
+          [
+            561.208984375,
+            126.2548828125
+          ],
+          [
+            256.369140625,
+            126.2548828125
+          ]
+        ]
+      },
+      {
+        "title": "Directors and Advisers",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            77.2646484375,
+            90.6033935546875
+          ],
+          [
+            261.8671875,
+            90.6033935546875
+          ],
+          [
+     
+
+--- 74c690176ce433301f4d1e808bb002a2f4dc321a_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            180.93124389648438,
+            59.81231689453125
+          ],
+          [
+            417.080078125,
+            59.81231689453125
+          ],
+          [
+            417.080078125,
+            84.07666015625
+          ],
+          [
+            180.93124389648438,
+            84.07666015625
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            267.9535217285156,
+            102.33734130859375
+          ],
+          [
+            330.4725341796875,
+            102.337
+
+--- 7792e23f8a40fb9461dbc26f417b0fb948f54f46_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            36.751708984375,
+            74.169921875
+          ],
+          [
+            290.382080078125,
+            74.169921875
+          ],
+          [
+            290.382080078125,
+            115.606689453125
+          ],
+          [
+            36.751708984375,
+            115.606689453125
+          ]
+        ]
+      },
+      {
+        "title": "2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            37.623291015625,
+            147.1099853515625
+          ],
+          [
+            77.98634719848633,
+            147.1099853515625
+          ],
+          [
+            77
+
+--- 78c71282723c2d66216cbba13183d19349d302b8_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            209.0399932861328,
+            56.41259765625
+          ],
+          [
+            402.73797607421875,
+            56.41259765625
+          ],
+          [
+            402.73797607421875,
+            88.03607177734375
+          ],
+          [
+            209.0399932861328,
+            88.03607177734375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            280.1513671875,
+            91.50732421875
+          ],
+          [
+            334.422332763
+
+--- 79ffb9b8682aa565172233c070a47d944464644c_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            157.75634765625,
+            29.31890869140625
+          ],
+          [
+            435.43243408203125,
+            29.31890869140625
+          ],
+          [
+            435.43243408203125,
+            58.0775146484375
+          ],
+          [
+            157.75634765625,
+            58.0775146484375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            252.7587890625,
+            78.8861083984375
+          ],
+          [
+            339.7255859375,
+            78.8861
+
+--- 7be0f16625505fb48ad135c1a3fccd75ce06671c_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            158.37890625,
+            51.5302734375
+          ],
+          [
+            453.5060119628906,
+            51.5302734375
+          ],
+          [
+            453.5060119628906,
+            100.43695068359375
+          ],
+          [
+            158.37890625,
+            100.43695068359375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            257.510009765625,
+            115.822265625
+          ],
+          [
+            356.501953125,
+         
+
+--- 8467b7fce0d860b56e30c79d253d0bb5e9a32e95_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 annual report\nbridgewater bancshares, inc.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            104.55908203125,
+            391.53515625
+          ],
+          [
+            476.8050537109375,
+            391.53515625
+          ],
+          [
+            476.8050537109375,
+            474.724853515625
+          ],
+          [
+            104.55908203125,
+            474.724853515625
+          ]
+        ]
+      },
+      {
+        "title": "WHO WE ARE",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            36.12969970703125,
+            80.2628173828125
+          ],
+          [
+            221.2998046875,
+            80.2628173828125
+
+--- 8f5e29eea4f4a3e944707c71148439ca1fd4b2d8_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Thriving\ntogether",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            50.57666015625,
+            68.49755859375
+          ],
+          [
+            264.462890625,
+            68.49755859375
+          ],
+          [
+            264.462890625,
+            177.1171875
+          ],
+          [
+            50.57666015625,
+            177.1171875
+          ]
+        ]
+      },
+      {
+        "title": "Financial Highlights",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            35.1123046875,
+            81.83935546875
+          ],
+          [
+            242.05078125,
+            81.83935546875
+          ],
+          [
+            242.0507
+
+--- 91ba1d46cdde9c1c0cf34f6bcc107741244f8f3d_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, DC 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            170.33203125,
+            35.14306640625
+          ],
+          [
+            446.5985412597656,
+            35.14306640625
+          ],
+          [
+            446.5985412597656,
+            75.73272705078125
+          ],
+          [
+            170.33203125,
+            75.73272705078125
+          ]
+        ]
+      },
+      {
+        "title": "FORM 20-F",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            262.5205078125,
+            87.15673828125
+          ],
+          [
+            353.0039978027344,
+        
+
+--- 91caa5884d3fbc344a05ac2f1d113a5d8725e4cb_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            160.171875,
+            45.19775390625
+          ],
+          [
+            419.255859375,
+            45.19775390625
+          ],
+          [
+            419.255859375,
+            80.96923828125
+          ],
+          [
+            160.171875,
+            80.96923828125
+          ]
+        ]
+      },
+      {
+        "title": "OUR RESPONSIBILITY",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            34.925537109375,
+            453.62109375
+          ],
+          [
+            147.0739288330078,
+            453.62109375
+          ],
+          [
+            147.0739288330078,
+        
+
+--- 92d9de8e4db96e0b95a484afcd1c54c6beb62c03_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nFORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            184.078125,
+            89.57373046875
+          ],
+          [
+            429.122314453125,
+            89.57373046875
+          ],
+          [
+            429.122314453125,
+            135.544921875
+          ],
+          [
+            184.078125,
+            135.544921875
+          ]
+        ]
+      },
+      {
+        "title": "WESTWATER RESOURCES, INC.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            221.1328125,
+            210.01226806640625
+          ],
+          [
+            392.1207885
+
+--- 957f31e694198a1695d14aa512a972ab6f3c55b5_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            41.5843505859375,
+            42.96588134765625
+          ],
+          [
+            181.70947265625,
+            42.96588134765625
+          ],
+          [
+            181.70947265625,
+            67.46044921875
+          ],
+          [
+            41.5843505859375,
+            67.46044921875
+          ]
+        ]
+      },
+      {
+        "title": "2022 \nAnnual Report",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            45.0,
+            390.0
+          ],
+          [
+            447.8203125,
+            390.0
+          ],
+          [
+            447.8203125,
+            529.85742
+
+--- 980742aa08ea64d552c153bcefbd7e8243fb9efd_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            197.30340576171875,
+            740.4501953125
+          ],
+          [
+            519.171875,
+            740.4501953125
+          ],
+          [
+            519.171875,
+            780.5288467407227
+          ],
+          [
+            197.30340576171875,
+            780.5288467407227
+          ]
+        ]
+      },
+      {
+        "title": "Annual Report 2022",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            208.658203125,
+            718.66015625
+          ],
+          [
+            518.7489013671875,
+            718.66015625
+          ],
+          [
+       
+
+--- 99cd0edaf5bfb233e5f46ee55af837de0b725274_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 Annual Report",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            50.3525390625,
+            392.90625
+          ],
+          [
+            464.37890625,
+            392.90625
+          ],
+          [
+            464.37890625,
+            438.5390625
+          ],
+          [
+            50.3525390625,
+            438.5390625
+          ]
+        ]
+      },
+      {
+        "title": "Fellow Stockholders,",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            55.05908203125,
+            53.80224609375
+          ],
+          [
+            236.66104125976562,
+            53.80224609375
+          ],
+          [
+            236.66104125976
+
+--- 9af0a7f8db3954c3e74851c8c1807a09ece8ef00_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Ready\nand\nResilient",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            428.6719970703125,
+            533.63671875
+          ],
+          [
+            545.853515625,
+            533.63671875
+          ],
+          [
+            545.853515625,
+            629.2184295654297
+          ],
+          [
+            428.6719970703125,
+            629.2184295654297
+          ]
+        ]
+      },
+      {
+        "title": "What we believe",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            188.12001037597656,
+            215.44000244140625
+          ],
+          [
+            375.890625,
+            215.44000244140625
+          ],
+         
+
+--- 9b7fdb871fc4d4a8babc25448257ae0b81a6442d_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            85.3424072265625,
+            573.5302734375
+          ],
+          [
+            120.4962158203125,
+            571.8857421875
+          ],
+          [
+            120.4962158203125,
+            578.4638671875
+          ],
+          [
+            85.3424072265625,
+            580.1083984375
+          ]
+        ]
+      },
+      {
+        "title": "A\nTABLE OF CONTENTS",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            249.0996856689453,
+            17.772216796875
+          ],
+          [
+            347.71697998046875,
+            17.772216796875
+          ],
+          [
+        
+
+--- 9e794a58e511f6a6a9a13b201d652deff9f9f69a_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            180.272216796875,
+            86.1373291015625
+          ],
+          [
+            416.8238220214844,
+            86.1373291015625
+          ],
+          [
+            416.8238220214844,
+            117.15899658203125
+          ],
+          [
+            180.272216796875,
+            117.15899658203125
+          ]
+        ]
+      },
+      {
+        "title": "FORM 20-F",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            264.67041015625,
+            130.637451171875
+          ],
+          [
+            328.6680
+
+--- a533b44fe091a8aa62d1fa4f0a3262b311df8bd9_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            143.138671875,
+            47.630859375
+          ],
+          [
+            471.22998046875,
+            47.630859375
+          ],
+          [
+            471.22998046875,
+            80.05078125
+          ],
+          [
+            143.138671875,
+            80.05078125
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            261.9228515625,
+            102.79248046875
+          ],
+          [
+            350.37298583984375,
+            102.79248046875
+          ],
+     
+
+--- a69ebee82a9acd54117407ca3697db0d7bfbfdac_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 by the numbers",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            149.80517578125,
+            66.988037109375
+          ],
+          [
+            457.50390625,
+            66.988037109375
+          ],
+          [
+            457.50390625,
+            101.09619140625
+          ],
+          [
+            149.80517578125,
+            101.09619140625
+          ]
+        ]
+      },
+      {
+        "title": "To our valued shareholders,",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            70.4794921875,
+            93.15966796875
+          ],
+          [
+            469.62823486328125,
+            93.15966796875
+          ],
+        
+
+--- a85dba6c75031912d56a811637f803ba4ddeb257_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            62.49560546875,
+            132.384765625
+          ],
+          [
+            122.00830078125,
+            132.384765625
+          ],
+          [
+            122.00830078125,
+            150.26904296875
+          ],
+          [
+            62.49560546875,
+            150.26904296875
+          ]
+        ]
+      },
+      {
+        "title": "Officers and Professional Advisers",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            62.7138671875,
+            92.29931640625
+          ],
+          [
+            220.0078125,
+            92.29931640625
+          ],
+          [
+            220
+
+--- aa781901e117281bfee6f8e4bea6fc9c9bada62e_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL \nREPORT &\nACCOUNTS \n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            401.6015625,
+            500.06787109375
+          ],
+          [
+            565.0684814453125,
+            500.06787109375
+          ],
+          [
+            565.0684814453125,
+            612.0463256835938
+          ],
+          [
+            401.6015625,
+            612.0463256835938
+          ]
+        ]
+      },
+      {
+        "title": "CONTENTS",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            35.04638671875,
+            85.8753662109375
+          ],
+          [
+            243.017578125,
+            85.8753662109375
+          ],
+      
+
+--- ad1613dac24a1349ec293100e3ea19fe913bb930_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            150.4599609375,
+            30.1640625
+          ],
+          [
+            457.2559509277344,
+            30.1640625
+          ],
+          [
+            457.2559509277344,
+            61.72998046875
+          ],
+          [
+            150.4599609375,
+            61.72998046875
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            256.39453125,
+            84.06298828125
+          ],
+          [
+            350.42144775390625,
+            84.06298828125
+          ],
+ 
+
+--- b33bd2220c0fc0939ef08b1bdd8d2ebea158aa59_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ARCADIA MINERALS LTD",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            282.6499938964844,
+            281.21484375
+          ],
+          [
+            556.9649658203125,
+            281.21484375
+          ],
+          [
+            556.9649658203125,
+            308.349609375
+          ],
+          [
+            282.6499938964844,
+            308.349609375
+          ]
+        ]
+      },
+      {
+        "title": "Board of Directors",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            35.467529296875,
+            91.2200927734375
+          ],
+          [
+            112.33203125,
+            91.2200927734375
+          ],
+          [
+
+
+--- b3c406f0cd22d58b25d0f52852e1c4a5d73daf35_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            204.99609375,
+            68.0411376953125
+          ],
+          [
+            409.99383544921875,
+            68.0411376953125
+          ],
+          [
+            409.99383544921875,
+            97.12353515625
+          ],
+          [
+            204.99609375,
+            97.12353515625
+          ]
+        ]
+      },
+      {
+        "title": "Tellurian Inc.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            260.8119201660156,
+            239.883544921875
+          ],
+          [
+            354.69079589843
+
+--- b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            185.83688354492188,
+            49.93426513671875
+          ],
+          [
+            419.3139953613281,
+            49.93426513671875
+          ],
+          [
+            419.3139953613281,
+            73.91162109375
+          ],
+          [
+            185.83688354492188,
+            73.91162109375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            272.621337890625,
+            94.99542236328125
+          ],
+          [
+            336.41851806640625,
+            
+
+--- c06d5ad4b6408fec26675d30b37a6042c007095a_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "APPENDIX 4E: FINAL REPORT\nFOR THE YEAR ENDED 30 JUNE 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            44.88916015625,
+            113.8837890625
+          ],
+          [
+            322.34906005859375,
+            113.8837890625
+          ],
+          [
+            322.34906005859375,
+            156.43603515625
+          ],
+          [
+            44.88916015625,
+            156.43603515625
+          ]
+        ]
+      },
+      {
+        "title": "1. Reporting Period",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            49.6099967956543,
+            202.585693359375
+          ],
+          [
+            152.0520477294922,
+     
+
+--- c5fc5890205fe5326d690fc017f7153fb09924e4_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Insurance. Just different.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            51.509765625,
+            185.4208984375
+          ],
+          [
+            525.57421875,
+            185.4208984375
+          ],
+          [
+            525.57421875,
+            232.2900390625
+          ],
+          [
+            51.509765625,
+            232.2900390625
+          ]
+        ]
+      },
+      {
+        "title": "Preface to Beazley 2022 Annual Report and \nAccounts",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            44.234375,
+            55.194580078125
+          ],
+          [
+            534.050048828125,
+            55.194580078125
+   
+
+--- c74139ce26a6f803725f5074a8a0f539abb99c09_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL REPORT\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            163.2041015625,
+            115.939453125
+          ],
+          [
+            428.63836669921875,
+            115.939453125
+          ],
+          [
+            428.63836669921875,
+            177.1982421875
+          ],
+          [
+            163.2041015625,
+            177.1982421875
+          ]
+        ]
+      },
+      {
+        "title": "FROM OUR PAST INTO\nTHE COUNTRY'S FUTURE",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            136.99960327148438,
+            598.1982421875
+          ],
+          [
+            458.31689453125,
+            598.1982421875
+  
+
+--- c7475e1d98f9a46a4652e503881d4a67232b41d3_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 FINANCIAL \nRESULTS \nSUMMARY",
+        "heading_level": null,
+        "page_id": 3,
+        "polygon": [
+          [
+            27.5830078125,
+            56.3115234375
+          ],
+          [
+            254.55978393554688,
+            56.3115234375
+          ],
+          [
+            254.55978393554688,
+            128.62478637695312
+          ],
+          [
+            27.5830078125,
+            128.62478637695312
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 3,
+        "polygon": [
+          [
+            29.0185546875,
+            262.6416015625
+          ],
+          [
+            143.96484375,
+            262.6416015625
+          ],
+          [
+    
+
+--- c8af22dbedd95ee719273792e5964ab8bbba17b2_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "KELLY PARTNERS GROUP HOLDINGS LIMITED",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            27.064453125,
+            287.73956298828125
+          ],
+          [
+            525.283203125,
+            287.73956298828125
+          ],
+          [
+            525.283203125,
+            319.0390625
+          ],
+          [
+            27.064453125,
+            319.0390625
+          ]
+        ]
+      },
+      {
+        "title": "Kelly Partners Group Holdings Limited\nContents\n30 June 2022",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            27.71923828125,
+            41.421630859375
+          ],
+          [
+            214.76953125,
+      
+
+--- cc0fc5888b99758100a7ff024863fc4337b6b3c5_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Energy is our passion\nPassion is our energy",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            430.3135986328125,
+            286.359375
+          ],
+          [
+            808.287109375,
+            286.359375
+          ],
+          [
+            808.287109375,
+            365.0503387451172
+          ],
+          [
+            430.3135986328125,
+            365.0503387451172
+          ]
+        ]
+      },
+      {
+        "title": "Our energy for a sustainable life.",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            53.24169921875,
+            112.55029296875
+          ],
+          [
+            345.4000549316406,
+            112
+
+--- d14ae2b6284e48b5c1e6659a0a5863d84697b3b9_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "INVESTING\n IN OUR BUSINESS TO DRIVE\nLONG-TERM VALUE 2022 ANNUAL REPORT",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            45.0,
+            512.7890625
+          ],
+          [
+            559.4414672851562,
+            512.7890625
+          ],
+          [
+            559.4414672851562,
+            639.6328125
+          ],
+          [
+            45.0,
+            639.6328125
+          ]
+        ]
+      },
+      {
+        "title": "FISCAL 2022 CORPORATE HIGHLIGHTS",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            78.4423828125,
+            76.2066650390625
+          ],
+          [
+            495.52496337890625,
+            76.2
+
+--- d5ad1d288230072e3f6654bb6182d76f8af2ba0a_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "abrdn Japan \nInvestment Trust plc",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            42.4169921875,
+            625.5261116027832
+          ],
+          [
+            408.50683212280273,
+            625.5261116027832
+          ],
+          [
+            408.50683212280273,
+            707.970703125
+          ],
+          [
+            42.4169921875,
+            707.970703125
+          ]
+        ]
+      },
+      {
+        "title": "Annual Report 31 March 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            42.5558967590332,
+            730.171875
+          ],
+          [
+            229.15948104858398,
+            730.171875
+   
+
+--- d86be8a2fa1aab721d7de6de7fd4f5267c914cb2_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "SWISS WATER DECAFFEINATED COFFEE INC.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            158.5283203125,
+            397.93359375
+          ],
+          [
+            450.6328125,
+            397.93359375
+          ],
+          [
+            450.6328125,
+            417.26953125
+          ],
+          [
+            158.5283203125,
+            417.26953125
+          ]
+        ]
+      },
+      {
+        "title": "2022 ANNUAL REPORT",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            228.90234375,
+            437.765625
+          ],
+          [
+            383.4663391113281,
+            437.765625
+          ],
+          [
+            3
+
+--- da663e46fbf02ec8a90b3f3c1079ef4c9f7907e1_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ALBANY\n\nINTERNATIONAL",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            67.6153564453125,
+            55.461181640625
+          ],
+          [
+            172.86328125,
+            55.461181640625
+          ],
+          [
+            172.86328125,
+            390.4013671875
+          ],
+          [
+            67.6153564453125,
+            390.4013671875
+          ]
+        ]
+      },
+      {
+        "title": "our strategy",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            206.5078125,
+            56.5477294921875
+          ],
+          [
+            285.96478271484375,
+            56.5477294921875
+          ],
+          [
+     
+
+--- ddd10e4612006205c4b1ba050a11648071e6e429_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            43.2158203125,
+            43.3231201171875
+          ],
+          [
+            221.79151916503906,
+            43.3231201171875
+          ],
+          [
+            221.79151916503906,
+            68.1966552734375
+          ],
+          [
+            43.2158203125,
+            68.1966552734375
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            45.107421875,
+            721.94921875
+          ],
+          [
+            554.966796875,
+            721.94921875
+          ],
+          [
+            554.966796
+
+--- ded965ce7e3ea0ad9b83272b8c36f529793a2887_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Our purpose",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            41.651611328125,
+            82.329345703125
+          ],
+          [
+            128.1923828125,
+            82.329345703125
+          ],
+          [
+            128.1923828125,
+            100.62176513671875
+          ],
+          [
+            41.651611328125,
+            100.62176513671875
+          ]
+        ]
+      },
+      {
+        "title": "To create technology that changes the way \npeople experience gambling entertainment",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            41.4697265625,
+            120.153564453125
+          ],
+          [
+            490.070
+
+--- e117005fc313bf0d49429d34bc8e1ef64de54898_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 ANNUAL REPORT",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            105.13916015625,
+            596.3700866699219
+          ],
+          [
+            512.7890625,
+            596.3700866699219
+          ],
+          [
+            512.7890625,
+            620.9384765625
+          ],
+          [
+            105.13916015625,
+            620.9384765625
+          ]
+        ]
+      },
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            189.0,
+            43.3201904296875
+          ],
+          [
+            404.25,
+            43.3201904296875
+          ],
+   
+
+--- e1edf72618e9d6ae2e72bb3ac7a9ddc15240e4ef_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            150.4931640625,
+            18.102691650390625
+          ],
+          [
+            447.050048828125,
+            18.102691650390625
+          ],
+          [
+            447.050048828125,
+            50.3123779296875
+          ],
+          [
+            150.4931640625,
+            50.3123779296875
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            255.95458984375,
+            68.0938720703125
+          ],
+          [
+            341.5491943359375,
+            68.0938
+
+--- e21ac6c083a56192fab027ebd2ab0fad71de5d7d_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "2022 ANNUAL REPORT",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            376.54241943359375,
+            79.27734375
+          ],
+          [
+            544.46484375,
+            79.27734375
+          ],
+          [
+            544.46484375,
+            93.2958984375
+          ],
+          [
+            376.54241943359375,
+            93.2958984375
+          ]
+        ]
+      },
+      {
+        "title": "2022 Financial Highlights",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            160.76953125,
+            58.15283203125
+          ],
+          [
+            446.85504150390625,
+            58.15283203125
+          ],
+          [
+      
+
+--- e229fc9f5c694e93b02ac312c231607a04e3e528_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nFORM 10-K\n(Mark one)\n☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended December 31, 2022\nor\n☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the transition period from ______ to _____\nCommission file number 1-08546\nTRINITY PLACE HOLDINGS INC.\n(Exact name of registrant as specified in its charter)\nDelaware\n(State or Other Jurisdiction of\nIncorporation or Organization)\nNo. 22-2465228\n(I.R.S. Employer Identification No.)\n340 Madison Avenue, New York, New York\n(Address of Principal Executive Offices)\n10173\n(Zip Code)\nRegistrant's te
+
+--- e273ed0d9626b9feaf50c09405c2b70d461e41d7_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            39.869140625,
+            45.43017578125
+          ],
+          [
+            186.3955078125,
+            45.43017578125
+          ],
+          [
+            186.3955078125,
+            78.629150390625
+          ],
+          [
+            39.869140625,
+            78.629150390625
+          ]
+        ]
+      },
+      {
+        "title": "Year ended March 31, 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            39.578125,
+            207.313720703125
+          ],
+          [
+            429.48828125,
+            207.313720703125
+          ],
+          [
+            429.48828125,
+ 
+
+--- e2850fff8d9dee77f3a6520d0b1aba46adddc2c0_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "FINANCIAL REPORT",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            183.33984375,
+            445.321533203125
+          ],
+          [
+            410.22998046875,
+            445.321533203125
+          ],
+          [
+            410.22998046875,
+            481.321533203125
+          ],
+          [
+            183.33984375,
+            481.321533203125
+          ]
+        ]
+      },
+      {
+        "title": "Benjamin Hornigold Ltd\nCorporate Directory\n30 June 2022",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            244.744140625,
+            42.860595703125
+          ],
+          [
+            353.001953125,
+            42.860595
+
+--- e2923f240db86d0096f462f6cb398339d3251b50_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            146.7889404296875,
+            17.1273193359375
+          ],
+          [
+            445.2050476074219,
+            17.1273193359375
+          ],
+          [
+            445.2050476074219,
+            50.77490234375
+          ],
+          [
+            146.7889404296875,
+            50.77490234375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            251.160888671875,
+            66.8604736328125
+          ],
+          [
+            345.0545959472656,
+            66.860
+
+--- e30ece688caf7602b734bbbcf39559b4acdb2739_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Timeless.\nTrusted.\nTransformative.",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            38.14013671875,
+            97.505859375
+          ],
+          [
+            448.7539978027344,
+            97.505859375
+          ],
+          [
+            448.7539978027344,
+            296.296875
+          ],
+          [
+            38.14013671875,
+            296.296875
+          ]
+        ]
+      },
+      {
+        "title": "Mission Statement",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            91.21728515625,
+            146.920166015625
+          ],
+          [
+            202.59228515625,
+            146.920166015625
+          ],
+       
+
+--- e6ce8ed579e95d2cfeabbbed872beb0c3f8396d7_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "The road to resilience",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            70.86609649658203,
+            101.0872802734375
+          ],
+          [
+            174.12510681152344,
+            101.0872802734375
+          ],
+          [
+            174.12510681152344,
+            113.0838623046875
+          ],
+          [
+            70.86609649658203,
+            113.0838623046875
+          ]
+        ]
+      },
+      {
+        "title": "Acknowledgement of Country",
+        "heading_level": null,
+        "page_id": 2,
+        "polygon": [
+          [
+            209.3201141357422,
+            107.3056640625
+          ],
+          [
+            360.859375,
+            107.3056640625
+
+--- e7a45fed0d7ebfd13a524e7fcc443318bac654e2_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            45.689453125,
+            47.3316650390625
+          ],
+          [
+            142.306640625,
+            47.3316650390625
+          ],
+          [
+            142.306640625,
+            106.27783203125
+          ],
+          [
+            45.689453125,
+            106.27783203125
+          ]
+        ]
+      },
+      {
+        "title": "ANNUAL AND SUSTAINABILITY REPORT 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            173.74798583984375,
+            65.98681640625
+          ],
+          [
+            543.326171875,
+            65.98681640625
+          ],
+          [
+       
+
+--- e7f655f43bc2abf6216519187d9fc907e9224937_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL \nREPORT\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            19.125,
+            7.734375
+          ],
+          [
+            597.77685546875,
+            7.734375
+          ],
+          [
+            597.77685546875,
+            785.8125
+          ],
+          [
+            19.125,
+            785.8125
+          ]
+        ]
+      },
+      {
+        "title": "2022 ANNUAL REPORT",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            92.1884765625,
+            30.526611328125
+          ],
+          [
+            518.765625,
+            30.526611328125
+          ],
+          [
+            518.765625,
+            115.725585937
+
+--- ecabab4934d4b80570c4bb3b8e35b7476694b3fb_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            196.62890625,
+            66.3009033203125
+          ],
+          [
+            420.4465026855469,
+            66.3009033203125
+          ],
+          [
+            420.4465026855469,
+            111.181640625
+          ],
+          [
+            196.62890625,
+            111.181640625
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            292.552734375,
+            184.658203125
+          ],
+          [
+            323.033203125,
+            18
+
+--- f015d4bfeec43fe65c003b6f4420ae864efbb58f_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "LETTER TO SHAREHOLDERS",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            223.5234375,
+            440.47265625
+          ],
+          [
+            391.62457275390625,
+            440.47265625
+          ],
+          [
+            391.62457275390625,
+            458.26171875
+          ],
+          [
+            223.5234375,
+            458.26171875
+          ]
+        ]
+      },
+      {
+        "title": "NOTICE OF MEETING AND PROXY STATEMENT \nFOR THE 2023 ANNUAL MEETING OF SHAREHOLDERS",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            153.48001098632812,
+            491.1328125
+          ],
+          [
+            462.33947753906
+
+--- f6a1077a46cb36761604f8f4840698e22837f5f7_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "ANNUAL\nREPORT\n2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            272.0491027832031,
+            551.740234375
+          ],
+          [
+            557.00390625,
+            551.740234375
+          ],
+          [
+            557.00390625,
+            800.5735473632812
+          ],
+          [
+            272.0491027832031,
+            800.5735473632812
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            50.63671875,
+            553.7958984375
+          ],
+          [
+            132.2666015625,
+            553.7958984375
+          ],
+          [
+            132.26660156
+
+--- f7324f3868005b3aae6aafd30441c9bb6c8823e8_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            391.5966796875,
+            705.38818359375
+          ],
+          [
+            568.845703125,
+            705.38818359375
+          ],
+          [
+            568.845703125,
+            759.67822265625
+          ],
+          [
+            391.5966796875,
+            759.67822265625
+          ]
+        ]
+      },
+      {
+        "title": "Building a Distinct, \nGrowing and Durable \nGlobal Wall Street Firm",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            34.35329818725586,
+            496.1568298339844
+          ],
+          [
+            478.7490234375,
+            496.1568298
+
+--- f85f0ccbbc59f1423d52d44e5ab70e3a01164499_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            140.760498046875,
+            54.11505126953125
+          ],
+          [
+            454.8432312011719,
+            54.11505126953125
+          ],
+          [
+            454.8432312011719,
+            85.54388427734375
+          ],
+          [
+            140.760498046875,
+            85.54388427734375
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            258.133544921875,
+            109.23016357421875
+          ],
+          [
+            341.10736083984375,
+         
+
+--- f879b3a802ccd6e8e6ca0a07ed8464318b7c0724_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "Annual Report\nFor the year ended 30 June 2022",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            117.7158203125,
+            525.0166015625
+          ],
+          [
+            474.9375,
+            525.0166015625
+          ],
+          [
+            474.9375,
+            804.5869140625
+          ],
+          [
+            117.7158203125,
+            804.5869140625
+          ]
+        ]
+      },
+      {
+        "title": "Contents",
+        "heading_level": null,
+        "page_id": 1,
+        "polygon": [
+          [
+            99.818359375,
+            85.618408203125
+          ],
+          [
+            162.677734375,
+            85.618408203125
+          ],
+          [
+      
+
+--- f9736aa2f56c40b127bced09ce1c8e8cbf7aa0e3_meta.json: dict with 3 items ---
+[
+  [
+    "table_of_contents",
+    [
+      {
+        "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            170.70001220703125,
+            43.26416015625
+          ],
+          [
+            434.5918884277344,
+            43.26416015625
+          ],
+          [
+            434.5918884277344,
+            71.04150390625
+          ],
+          [
+            170.70001220703125,
+            71.04150390625
+          ]
+        ]
+      },
+      {
+        "title": "FORM 10-K",
+        "heading_level": null,
+        "page_id": 0,
+        "polygon": [
+          [
+            266.4052734375,
+            89.6414794921875
+          ],
+          [
+            338.3337707519531,
+            89.6414794

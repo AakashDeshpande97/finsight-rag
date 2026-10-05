@@ -1,0 +1,22 @@
+100 companies in subset.json
+
+ACRES Commercial Realty Corp.            | Financial Services     |  158 pages |    838k chars
+Aptevo Therapeutics Inc.                 | Healthcare             |  118 pages |    580k chars
+Downer EDI Limited                       | Transport & Logistics  |  146 pages |    710k chars
+Odyssey Gold Limited                     | Pharmaceuticals        |   68 pages |    298k chars
+NextNav Inc.                             | Technology             |   92 pages |    476k chars
+
+--- ACRES Commercial Realty Corp., page 7 (cleaned) ---
+# **ACRES COMMERCIAL REALTY CORP. AND SUBSIDIARIES INDEX TO ANNUAL REPORT ON FORM 10-K**
+
+|            |                                                                                                              | PAGE |
+|------------|--------------------------------------------------------------------------------------------------------------|------|
+|            | Forward-Looking Statements                                                                                   | 3    |
+| PART I     |                                                                                                              |      |
+| Item 1:    | Business                                                                                                     | 5    |
+|            | Item 1A: Risk Factors                                                                                        | 16   |
+|            | Item 1B: Unresolved Staff Comments                                                                           | 40   |
+| Item 2:    | Properties                                                                                                   | 40   |
+| Item 3:    | Legal Proceedings                                                                                            | 40   |
+| Item 4:    | Mine Safety Disclosures                                                                                      | 40   |
+| PART II    |                                                                  
