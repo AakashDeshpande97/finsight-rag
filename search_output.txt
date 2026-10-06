@@ -1,0 +1,28 @@
+
+### Q: What was the net income for the year? | filter: none
+  [0.641] ACRES Commercial Realty C p.81: During the year ended December 31, 2021, we generated $1.1 million of taxable income which was offset by our cumulative net operating losses ("NOL"), 
+  [0.658] ACRES Commercial Realty C p.54: The existence of net capital loss carryforwards allow for potential future capital gains on these investments to be shielded from income taxes. At Dec
+  [0.666] ACRES Commercial Realty C p.100: | | | Years Ended December 31, | | |---|---|---|---| | CASH AND CASH EQUIVALENTS AND RESTRICTED CASH AT END OF YEAR | $ 104,811 | $ 283,931 | $ 67,741
+  [0.682] ACRES Commercial Realty C p.57: ### *Net Interest Income*  The following table analyzes the change in interest income and interest expense for the comparative years ended December 31
+  [0.683] ACRES Commercial Realty C p.47: During the year ended December 31, 2021, we generated $1.1 million of taxable income which was offset by our cumulative NOL, leaving $46.6 million to 
+
+### Q: What was the net income for the year? | filter: ACRES Commercial Realty Corp.
+  [0.641] ACRES Commercial Realty C p.81: During the year ended December 31, 2021, we generated $1.1 million of taxable income which was offset by our cumulative net operating losses ("NOL"), 
+  [0.658] ACRES Commercial Realty C p.54: The existence of net capital loss carryforwards allow for potential future capital gains on these investments to be shielded from income taxes. At Dec
+  [0.666] ACRES Commercial Realty C p.100: | | | Years Ended December 31, | | |---|---|---|---| | CASH AND CASH EQUIVALENTS AND RESTRICTED CASH AT END OF YEAR | $ 104,811 | $ 283,931 | $ 67,741
+  [0.682] ACRES Commercial Realty C p.57: ### *Net Interest Income*  The following table analyzes the change in interest income and interest expense for the comparative years ended December 31
+  [0.683] ACRES Commercial Realty C p.47: During the year ended December 31, 2021, we generated $1.1 million of taxable income which was offset by our cumulative NOL, leaving $46.6 million to 
+
+### Q: How much notice must the CEO give to resign? | filter: Downer EDI Limited
+  [0.552] Downer EDI Limited p.49: | Termination | Mr Fenn can resign: | | | | | |---|---|--|--|--|--| | | (a) By providing six months' written notice; or | | | | | | | (b) Immediately 
+  [0.565] Downer EDI Limited p.49: | Termination | Mr Fenn can resign: | | | | | |---|---|--|--|--|--| | | If Downer terminates Mr Fenn's employment on account of redundancy, in additio
+  [0.718] Downer EDI Limited p.48: ## **9. Key Terms of Employment Contracts**  #### **9.1 Notice and termination payments**  Executives are on contracts with no fixed end date.  The fo
+  [0.742] Downer EDI Limited p.51: The table below sets out the remuneration paid to Non-executive Directors for the 2022 and 2021 financial years.  | | Short-term benefits | | | Post-e
+  [0.773] Downer EDI Limited p.138: At least one Director must retire from office at each Annual General Meeting (AGM). No Non-executive Director can serve more than three years without 
+
+### Q: What risks does the company face from clinical trials? | filter: Aptevo Therapeutics Inc.
+  [0.455] Aptevo Therapeutics Inc. p.34: A number of companies in the pharmaceutical and biopharmaceutical industry have suffered significant setbacks in advanced clinical trials due to lack 
+  [0.492] Aptevo Therapeutics Inc. p.34: In some instances, there can be significant variability in safety or efficacy results between different clinical trials of the same product candidate 
+  [0.507] Aptevo Therapeutics Inc. p.38: - we could be sued and held liable for harm caused to patients; and - our reputation may suffer.  Any of these events could prevent us from achieving 
+  [0.524] Aptevo Therapeutics Inc. p.37: - reporting of preliminary results of any of our clinical trial sites; - the proximity and availability of clinical trial sites for prospective patien
+  [0.525] Aptevo Therapeutics Inc. p.30: ### *We face product liability exposure, which could cause us to incur substantial liabilities and negatively af ect our business, financial condition

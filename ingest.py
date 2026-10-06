@@ -16,6 +16,7 @@ def find(filename):
 
 def clean(text):
     text = IMAGE_LINK.sub("", text)          # remove image links
+    text = text.replace("<br>", " ")         # HTML line breaks inside table cells
     text = text.replace("\\$", "$")          # \$40.4 -> $40.4
     text = re.sub(r" {2,}", " ", text)       # squeeze table padding
     text = re.sub(r"-{4,}", "---", text)     # shorten table separator lines
