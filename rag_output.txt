@@ -1,0 +1,43 @@
+
+### Q: How much notice must the CEO give to resign? (Downer EDI Limited)
+The CEO (Managing Director) must provide six months' written notice to resign [1, 3].
+
+Sources:
+  [1] Downer EDI Limited, page 49 (distance 0.552)
+  [2] Downer EDI Limited, page 49 (distance 0.565)
+  [3] Downer EDI Limited, page 48 (distance 0.718)
+  [4] Downer EDI Limited, page 51 (distance 0.742)
+  [5] Downer EDI Limited, page 138 (distance 0.773)
+(answered by gemini-flash-lite-latest)
+
+### Q: What risks does the company face from clinical trials? (Aptevo Therapeutics Inc.)
+Based on the provided sources, the company faces several risks related to clinical trials:
+
+* **Setbacks due to lack of efficacy or adverse safety profiles:** Companies in the pharmaceutical industry, including those with greater resources, have suffered significant setbacks in advanced clinical trials despite promising early results, and the company cannot guarantee it will not face similar issues [1].
+* **Need for additional trials:** Even with promising early-stage trials, the company may need to conduct additional trials in different patient populations or under different conditions before seeking approval from the FDA or foreign regulatory authorities [1].
+* **Variability in results:** There can be significant variability in safety or efficacy results between different clinical trials of the same product candidate due to factors such as changes in trial procedures, differences in patient populations, adherence to dosing regimens, and participant dropout rates [2].
+* **Interpretation of data:** Preclinical and clinical data are susceptible to various interpretations and analyses, and product candidates in later stages may fail to show the desired safety and efficacy profile despite earlier satisfactory performance [2].
+* **Failure to obtain marketing approval:** Many companies with product candidates that performed satisfactorily in preclinical and clinical studies have nonetheless failed to obtain marketing approval [2].
+* **Dependence on third parties:** The company depends on third parties to conduct its clinical and non-clinical trials. If these third parties fail to effectively carry out their duties, comply with regulations, or meet deadlines, the company may not be able to obtain regulatory approval or commercialize its products [3].
+* **Patient enrollment challenges:** The company may be unable to enroll a sufficient number of patients due to factors such as site reporting, proximity and availability of sites, and uncontrollable factors like the COVID-19 pandemic. This can cause significant delays, increased development costs, delayed results or commercial launches, a decline in company value, and limited ability to obtain financing [4].
+* **Adverse events and side effects:** Serious adverse events, undesirable side effects, or unexpected properties of product candidates may be identified that could delay, prevent, or cause the withdrawal of regulatory approval, limit commercial potential, or result in significant negative consequences [4].
+* **Product liability exposure:** The testing of product candidates in clinical trials exposes the company to potential product liability claims from patients, consumers, health care providers, and others, which could cause the company to incur substantial liabilities and negatively affect its business, financial condition, and results of operations [5].
+
+Sources:
+  [1] Aptevo Therapeutics Inc., page 34 (distance 0.455)
+  [2] Aptevo Therapeutics Inc., page 34 (distance 0.492)
+  [3] Aptevo Therapeutics Inc., page 38 (distance 0.507)
+  [4] Aptevo Therapeutics Inc., page 37 (distance 0.524)
+  [5] Aptevo Therapeutics Inc., page 30 (distance 0.525)
+(answered by gemini-flash-lite-latest)
+
+### Q: What was the net income for the year? (ACRES Commercial Realty Corp.)
+The provided sources do not contain this information.
+
+Sources:
+  [1] ACRES Commercial Realty Corp., page 81 (distance 0.641)
+  [2] ACRES Commercial Realty Corp., page 54 (distance 0.658)
+  [3] ACRES Commercial Realty Corp., page 100 (distance 0.666)
+  [4] ACRES Commercial Realty Corp., page 57 (distance 0.682)
+  [5] ACRES Commercial Realty Corp., page 47 (distance 0.683)
+(answered by gemini-flash-lite-latest)
