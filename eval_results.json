@@ -1,0 +1,342 @@
+[
+  {
+    "question": "What is a B-note typically secured by?",
+    "company": "ACRES Commercial Realty Corp.",
+    "key_fact": "first mortgage on a single large commercial property",
+    "expected_answer": "A B-note is typically secured by a first mortgage on a single large commercial property or group of related properties and subordinated to a senior note.",
+    "source_page": 34,
+    "rag_answer": "A B-note is typically secured by a first mortgage on a single large commercial property or group of related properties [1].",
+    "retrieved_pages": [
+      34,
+      15,
+      15,
+      20,
+      123
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "What is the allowance for credit losses included in the net carrying amount?",
+    "company": "ACRES Commercial Realty Corp.",
+    "key_fact": "$18.8 million",
+    "expected_answer": "The allowance for credit losses included in the net carrying amount is $18.8 million.",
+    "source_page": 14,
+    "rag_answer": "The net carrying amount includes an allowance for credit losses of $18.8 million [2].",
+    "retrieved_pages": [
+      34,
+      14,
+      114,
+      84,
+      90
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "Whose approval is not required for the Board to amend the charter to increase the authorized shares of stock?",
+    "company": "ACRES Commercial Realty Corp.",
+    "key_fact": "without stockholder approval",
+    "expected_answer": "Stockholder approval is not required for the Board to amend the charter.",
+    "source_page": 38,
+    "rag_answer": "Stockholder approval is not required for the Board to amend the charter to increase the total number of authorized shares of stock [1].",
+    "retrieved_pages": [
+      38,
+      47,
+      38,
+      39,
+      39
+    ],
+    "retrieval_hit": true,
+    "answer_hit": false
+  },
+  {
+    "question": "What was the total operating expenses for ACRES Commercial Realty Corp. for the year ended December 31, 2022?",
+    "company": "ACRES Commercial Realty Corp.",
+    "key_fact": "67,406",
+    "expected_answer": "67,406",
+    "source_page": 60,
+    "rag_answer": "The total operating expenses for ACRES Commercial Realty Corp. for the year ended December 31, 2022, were $67,406 (in thousands) [1, 2].",
+    "retrieved_pages": [
+      60,
+      94,
+      60,
+      78,
+      122
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "Which SEC Staff Accounting Bulletin is permitted for calculating the expected term of the stock option award using the simplified method?",
+    "company": "Aptevo Therapeutics Inc.",
+    "key_fact": "SEC Staff Accounting Bulletin No. 110",
+    "expected_answer": "SEC Staff Accounting Bulletin No. 110",
+    "source_page": 76,
+    "rag_answer": "The SEC Staff Accounting Bulletin permitted for calculating the expected term of the stock option award using the simplified method is SEC Staff Accounting Bulletin No. 110, *Share-Based Payment* [1].",
+    "retrieved_pages": [
+      76,
+      89,
+      76,
+      95,
+      98
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "Which platform was used to develop the preclinical candidate that is advancing in the Aptevo Therapeutics pipeline?",
+    "company": "Aptevo Therapeutics Inc.",
+    "key_fact": "ADAPTIR-FLEX platform",
+    "expected_answer": "The preclinical candidate was developed based on the ADAPTIR-FLEX platform.",
+    "source_page": 3,
+    "rag_answer": "The preclinical candidate that is advancing in the pipeline was developed using the ADAPTIR-FLEX™ modular protein technology platform [5].",
+    "retrieved_pages": [
+      66,
+      3,
+      84,
+      8,
+      66
+    ],
+    "retrieval_hit": false,
+    "answer_hit": false
+  },
+  {
+    "question": "What must Aptevo do for financial reporting purposes if it is more likely than not that some portion or all of its deferred tax assets will not be realized prior to expiration?",
+    "company": "Aptevo Therapeutics Inc.",
+    "key_fact": "reduced by a valuation allowance",
+    "expected_answer": "A deferred tax asset must be reduced by a valuation allowance.",
+    "source_page": 89,
+    "rag_answer": "For financial reporting purposes, a deferred tax asset must be reduced by a valuation allowance if it is more likely than not that some portion or all of the deferred tax assets will not be realized prior to expiration [1].",
+    "retrieved_pages": [
+      89,
+      89,
+      101,
+      101,
+      33
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "What is the duration of the period of marketing exclusivity granted in the United States for an approved product with orphan drug designation?",
+    "company": "Aptevo Therapeutics Inc.",
+    "key_fact": "seven years",
+    "expected_answer": "A period of seven years in the United States.",
+    "source_page": 42,
+    "rag_answer": "The period of marketing exclusivity in the United States for an approved product with orphan drug designation is a period of seven years [1].",
+    "retrieved_pages": [
+      42,
+      19,
+      42,
+      42,
+      19
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "What was the Segment EBIT for Downer EDI Limited in the financial year 2022?",
+    "company": "Downer EDI Limited",
+    "key_fact": "489.3",
+    "expected_answer": "489.3 million dollars",
+    "source_page": 70,
+    "rag_answer": "The Segment EBIT for Downer EDI Limited in the financial year 2022 was 489.3 $'m [2].",
+    "retrieved_pages": [
+      69,
+      70,
+      69,
+      12,
+      69
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "Since what year has a formal program of Director site visits been in place at Downer EDI Limited?",
+    "company": "Downer EDI Limited",
+    "key_fact": "since 2009",
+    "expected_answer": "A formal program of Director site visits has been in place since 2009.",
+    "source_page": 140,
+    "rag_answer": "A formal program of Director site visits has been in place since 2009 [1].",
+    "retrieved_pages": [
+      140,
+      140,
+      6,
+      28,
+      9
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "When was Teresa Gayle Handicott appointed as an Independent Non-executive Director?",
+    "company": "Downer EDI Limited",
+    "key_fact": "September 2016",
+    "expected_answer": "Teresa Gayle Handicott has been an Independent Non-executive Director since September 2016.",
+    "source_page": 7,
+    "rag_answer": "Teresa Gayle Handicott has been an Independent Non-executive Director since September 2016 [1].",
+    "retrieved_pages": [
+      7,
+      28,
+      9,
+      9,
+      8
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "What percentage of performance rights qualify for vesting if Downer EDI Limited's TSR ranking is at the 50th percentile?",
+    "company": "Downer EDI Limited",
+    "key_fact": "30%",
+    "expected_answer": "30%",
+    "source_page": 36,
+    "rag_answer": "If Downer EDI Limited's TSR ranking is at the 50th percentile, 30% of the performance rights subject to the TSR condition qualify for vesting [2].",
+    "retrieved_pages": [
+      37,
+      36,
+      37,
+      38,
+      38
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "Which act permits the Directors' and Officers' Liability Insurance and Company Reimbursement policies for Odyssey Gold Limited?",
+    "company": "Odyssey Gold Limited",
+    "key_fact": "Corporations Act 2001",
+    "expected_answer": "The policies cover all Directors and officers against liabilities to the extent permitted by the Corporations Act 2001.",
+    "source_page": 22,
+    "rag_answer": "The Corporations Act 2001 permits the Directors' and Officers' Liability Insurance and Company Reimbursement policies [1, 2].",
+    "retrieved_pages": [
+      22,
+      23,
+      39,
+      58,
+      59
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "What amount was paid to Ledger Holdings Pty Ltd for business development activities during the period 1 July 2021 to 31 October 2021?",
+    "company": "Odyssey Gold Limited",
+    "key_fact": "$28,000",
+    "expected_answer": "Ledger Holdings Pty Ltd was paid $28,000 during the period 1 July 2021 to 31 October 2021.",
+    "source_page": 26,
+    "rag_answer": "Ledger Holdings Pty Ltd was paid or is payable $28,000 during the period 1 July 2021 to 31 October 2021 for the provision of services in relation to business development activities [1].",
+    "retrieved_pages": [
+      29,
+      26,
+      27,
+      52,
+      53
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "On what date did Mr Matthew Briggs become the Managing Director and Chief Executive Officer of Odyssey Gold Limited?",
+    "company": "Odyssey Gold Limited",
+    "key_fact": "17 January 2022",
+    "expected_answer": "Mr Matthew Briggs was appointed as Managing Director and Chief Executive Officer effective from 17 January 2022.",
+    "source_page": 16,
+    "rag_answer": "Mr Matthew Briggs became the Managing Director and Chief Executive Officer of Odyssey Gold Limited effective from 17 January 2022 [1].",
+    "retrieved_pages": [
+      16,
+      21,
+      29,
+      19,
+      27
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "How many RC holes were completed during the 2022 drill program on the Tuckanarra Project?",
+    "company": "Odyssey Gold Limited",
+    "key_fact": "131 holes",
+    "expected_answer": "A total of 131 RC holes were completed.",
+    "source_page": 5,
+    "rag_answer": "During the 2022 drill program on the Tuckanarra Project, a total of 131 holes (23,131m) of RC were completed [1].",
+    "retrieved_pages": [
+      4,
+      5,
+      13,
+      9,
+      5
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "Where are expenditures for maintenance and repairs that do not materially extend useful lives charged as incurred?",
+    "company": "NextNav Inc.",
+    "key_fact": "cost of goods sold",
+    "expected_answer": "Expenditures for maintenance and repairs that do not materially extend the useful lives of property and equipment are charged to cost of goods sold and selling, general and administrative as incurred.",
+    "source_page": 66,
+    "rag_answer": "Expenditures for maintenance and repairs that do not materially extend the useful lives of property and equipment are charged to cost of goods sold (\"COGS\") and selling, general and administrative (\"SG&A\") as incurred [1].",
+    "retrieved_pages": [
+      66,
+      66,
+      64,
+      68,
+      66
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "What is the date of the certification for NextNav Inc.'s Annual Report on Form 10-K for the year ended December 31, 2022?",
+    "company": "NextNav Inc.",
+    "key_fact": "March 30, 2023",
+    "expected_answer": "March 30, 2023",
+    "source_page": 93,
+    "rag_answer": "The certification is dated March 30, 2023 [2].",
+    "retrieved_pages": [
+      3,
+      93,
+      54,
+      2,
+      51
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "Which third-party companies are mentioned as providers that the company heavily relies on for products and business operations?",
+    "company": "NextNav Inc.",
+    "key_fact": "AT&T, Verizon and Amazon Web Services",
+    "expected_answer": "AT&T, Verizon and Amazon Web Services",
+    "source_page": 5,
+    "rag_answer": "The third-party companies mentioned as providers that the company heavily relies on for a variety of products and business operations are AT&T, Verizon, and Amazon Web Services [4].",
+    "retrieved_pages": [
+      27,
+      27,
+      26,
+      5,
+      23
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  },
+  {
+    "question": "What anti-corruption laws are specifically mentioned as applicable to NextNav Inc.'s international business?",
+    "company": "NextNav Inc.",
+    "key_fact": "the FCPA",
+    "expected_answer": "The anti-corruption laws mentioned include the FCPA.",
+    "source_page": 37,
+    "rag_answer": "The anti-corruption laws specifically mentioned as applicable to NextNav Inc.'s international business include the FCPA [1].",
+    "retrieved_pages": [
+      37,
+      6,
+      36,
+      36,
+      52
+    ],
+    "retrieval_hit": true,
+    "answer_hit": true
+  }
+]

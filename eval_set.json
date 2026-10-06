@@ -1,0 +1,182 @@
+[
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "question": "What is a B-note typically secured by?",
+    "expected_answer": "A B-note is typically secured by a first mortgage on a single large commercial property or group of related properties and subordinated to a senior note.",
+    "key_fact": "first mortgage on a single large commercial property",
+    "source_page": 34,
+    "source_id": "0279901b645e568591ad95dac2c2bf939ef0c00d_p33_c6",
+    "source_text": "Company: ACRES Commercial Realty Corp. | Page: 34\n\n# *The B-notes in which we may invest may be subject to additional risks relating to the privately negotiated structure and terms of the transaction, which may result in losses to us.*\n\nWe may invest in B-notes. A B-note is a loan typically secured by a first mortgage on a single large commercial property or group of related properties and subordinated to a senior note secured by the same first mortgage on the same collateral. As a result, if a borrower defaults, there may not be sufficient funds remaining for B-note owners after payment to the senior note owners. Since each transaction is privately negotiated, B-notes can vary in their structural characteristics and risks. For example, the rights of holders of Bnotes to control the process following a borrower default may be limited in certain investments. Depending upon market and economic conditions, we may make B-note investments at any time. B-notes are less liquid than other forms of CRE debt investments, such as CMBS, and, as a result, we may be able to dispose of underperforming or non-performing B-note investments only at a significant discount to book value."
+  },
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "question": "What is the allowance for credit losses included in the net carrying amount?",
+    "expected_answer": "The allowance for credit losses included in the net carrying amount is $18.8 million.",
+    "key_fact": "$18.8 million",
+    "source_page": 14,
+    "source_id": "0279901b645e568591ad95dac2c2bf939ef0c00d_p13_c2",
+    "source_text": "Company: ACRES Commercial Realty Corp. | Page: 14\n\n(1) Net carrying amount includes an allowance for credit losses of $18.8 million.\n\n(2) Includes real estate-related right of use assets of $19.5 million, mortgage payable of $18.2 million, intangible assets of $8.9 million, lease liabilities of $42.9 million and other liabilities of $64,000.\n\n(3) Includes property held for sale-related liabilities of $3.0 million.\n\n(4) There are no stated rates associated with these investments.\n\nWe hold investments in 100% of the common shares of two trusts, Resource Capital Trust I and RCC Trust II, that were formed for the purpose of providing us with unsecured junior subordinated debt financing and are accounted for as investments in unconsolidated entities.\n\n# *CRE Debt Investments*"
+  },
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "question": "Whose approval is not required for the Board to amend the charter to increase the authorized shares of stock?",
+    "expected_answer": "Stockholder approval is not required for the Board to amend the charter.",
+    "key_fact": "without stockholder approval",
+    "source_page": 38,
+    "source_id": "0279901b645e568591ad95dac2c2bf939ef0c00d_p37_c2",
+    "source_text": "Company: ACRES Commercial Realty Corp. | Page: 38\n\n- *Our charter permits our Board to issue stock with terms that may discourage a third-party from acquiring us.* Our Board may amend our charter without stockholder approval to increase the total number of authorized shares of stock or the number of shares of any class or series and issue common or preferred stock having preferences, conversion or other rights, voting powers, restrictions, limitations as to distributions, qualifications, or terms or conditions of redemption as determined by our Board. Thus, our Board could authorize the issuance of stock with terms and conditions that could have the effect of discouraging a takeover or other transaction in which holders of some or a majority of our shares might receive a premium for their shares over the then-prevailing market price."
+  },
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "question": "What was the total operating expenses for ACRES Commercial Realty Corp. for the year ended December 31, 2022?",
+    "expected_answer": "67,406",
+    "key_fact": "67,406",
+    "source_page": 60,
+    "source_id": "0279901b645e568591ad95dac2c2bf939ef0c00d_p59_c0",
+    "source_text": "Company: ACRES Commercial Realty Corp. | Page: 60\n\n# *Operating Expenses*\n\n*Year Ended December 31, 2022 as compared to the Year Ended December 31, 2021*\n\nThe following table sets forth information relating to our operating expenses for the years presented (dollars in thousands):\n\n| | Years Ended December 31, | | | | | | | |\n|---|---|---|---|---|---|---|---|--|\n| | 2022 | | | 2021 | | Dollar Change | Percent Change | |\n| Operating expenses: | | | | | | | | |\n| General and administrative | $ | 10,575 | $ | 11,602 | $ | (1,027) | (9)% | |\n| Real estate expenses | | 33,854 | | 10,601 | | 23,253 | 219% | |\n| Management fees - related party | | 7,035 | | 6,089 | | 946 | 16% | |\n| Equity compensation - related party | | 3,562 | | 1,722 | | 1,840 | 107% | |\n| Corporate depreciation and amortization | | 85 | | 94 | | (9) | (10)% | |\n| Provision for (reversal of) credit losses, net | | 12,295 | | (21,262) | | 33,557 | 158% | |\n| Total | $ | 67,406 | $ | 8,846 | $ | 58,560 | 662% | |\n\nAggregate operating expenses increased by $58.6 million for the comparative years ended December 31, 2022 and 2021. We attribute the changes to the following:"
+  },
+  {
+    "company": "Aptevo Therapeutics Inc.",
+    "question": "Which SEC Staff Accounting Bulletin is permitted for calculating the expected term of the stock option award using the simplified method?",
+    "expected_answer": "SEC Staff Accounting Bulletin No. 110",
+    "key_fact": "SEC Staff Accounting Bulletin No. 110",
+    "source_page": 76,
+    "source_id": "0981826b4b43a88920f3e01c71ae73539bab84cc_p75_c1",
+    "source_text": "Company: Aptevo Therapeutics Inc. | Page: 76\n\n- the expected term of the stock option award, which we calculate using the simplified method, as permitted by the SEC Staff Accounting Bulletin No. 110, *Share-Based Payment*, as we have insufficient historical information regarding our stock options to provide a basis for an estimate;\n- the expected volatility of our underlying common stock, which we estimate based on the historical volatility of a representative group of publicly traded biopharmaceutical companies with similar characteristics to us, and our own historical and implied future volatility;\n- the risk-free interest rate, which we based on the yield curve of U.S. Treasury securities with periods commensurate with the expected term of the options being valued;\n- the expected dividend yield, which we estimate to be zero based on the fact that we have never paid cash dividends and have no present intention to pay cash dividends; and\n- the fair value of our common stock on the date of grant."
+  },
+  {
+    "company": "Aptevo Therapeutics Inc.",
+    "question": "Which platform was used to develop the preclinical candidate that is advancing in the Aptevo Therapeutics pipeline?",
+    "expected_answer": "The preclinical candidate was developed based on the ADAPTIR-FLEX platform.",
+    "key_fact": "ADAPTIR-FLEX platform",
+    "source_page": 3,
+    "source_id": "0981826b4b43a88920f3e01c71ae73539bab84cc_p2_c5",
+    "source_text": "Company: Aptevo Therapeutics Inc. | Page: 3\n\nThe structural differences of ADAPTIR molecules over monoclonal antibodies allow for the development of ADAPTIR immunotherapeutics that are designed to engage immune effector cells and disease targets to produce signaling responses that modulate the immune system to kill tumor cells.\n\nWe believe we are skilled at candidate generation, validation, and subsequent preclinical and clinical development using the ADAPTIR platform and the ADAPTIR-FLEX platform to generate multi-specific candidates or other candidates to our platform capabilities. We have developed a preclinical candidate based on the ADAPTIR-FLEX platform which is advancing in our pipeline. We are developing our ADAPTIR and ADAPTIR-FLEX molecules using our protein engineering, preclinical development, process development, and clinical development capabilities."
+  },
+  {
+    "company": "Aptevo Therapeutics Inc.",
+    "question": "What must Aptevo do for financial reporting purposes if it is more likely than not that some portion or all of its deferred tax assets will not be realized prior to expiration?",
+    "expected_answer": "A deferred tax asset must be reduced by a valuation allowance.",
+    "key_fact": "reduced by a valuation allowance",
+    "source_page": 89,
+    "source_id": "0981826b4b43a88920f3e01c71ae73539bab84cc_p88_c3",
+    "source_text": "Company: Aptevo Therapeutics Inc. | Page: 89\n\nAptevo's ability to realize deferred tax assets depends upon future taxable income, as well as the limitations discussed below. For financial reporting purposes, a deferred tax asset must be reduced by a valuation allowance if it is more likely than not that some portion or all of the deferred tax assets will not be realized prior to expiration. Aptevo considers historical and future taxable income, future reversals of existing taxable temporary differences, taxable income in prior carryback years, and ongoing tax planning strategies in assessing the need for valuation allowances. In general, if Aptevo determines that it is more likely than not to realize more than the recorded amounts of net deferred tax assets in the future, Aptevo will reverse all or a portion of the valuation allowance established against its deferred tax assets, resulting in a decrease to the provision for income taxes in the period in which the determination is made."
+  },
+  {
+    "company": "Aptevo Therapeutics Inc.",
+    "question": "What is the duration of the period of marketing exclusivity granted in the United States for an approved product with orphan drug designation?",
+    "expected_answer": "A period of seven years in the United States.",
+    "key_fact": "seven years",
+    "source_page": 42,
+    "source_id": "0981826b4b43a88920f3e01c71ae73539bab84cc_p41_c0",
+    "source_text": "Company: Aptevo Therapeutics Inc. | Page: 42\n\n### *Certain of our product candidates have received orphan drug designation from the FDA. However, there is no guarantee that we will be able to maintain this designation, receive this designation for any of our other product candidates, or receive or maintain any corresponding benefits, including periods of exclusivity.*\n\nCertain of our product candidates have received orphan drug designation. We may also seek orphan drug designation for our other product candidates, as appropriate. While orphan drug designation does provide us with certain advantages, it neither shortens the development time or regulatory review time of a product candidate nor gives the product candidate any advantage in the regulatory review or approval process.\n\nGenerally, if a product candidate with orphan drug designation subsequently receives marketing approval before another product considered by the FDA to be the same for the same orphan indication, the product is entitled to a period of marketing exclusivity, which precludes the FDA from approving another marketing application for the same drug or biologic for the same indication for a period of seven years in the United States."
+  },
+  {
+    "company": "Downer EDI Limited",
+    "question": "What was the Segment EBIT for Downer EDI Limited in the financial year 2022?",
+    "expected_answer": "489.3 million dollars",
+    "key_fact": "489.3",
+    "source_page": 70,
+    "source_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f_p69_c0",
+    "source_text": "Company: Downer EDI Limited | Page: 70\n\n#### **B1. Segment information – continued**\n\nReconciliation of segment EBIT to net profit after tax:\n\n| | | Segment results | | |\n|---|---|---|---|--|\n| | Note | 2022 $'m | 2021 $'m | |\n| Segment EBIT | | 489.3 | 553.9 | |\n| Unallocated: | | | | |\n| Fair value movement on DCSO liability | B3 | 3.7 | (16.6) | |\n| Divestments and exit costs | B3 | (75.8) | – | |\n| Portfolio restructure costs | B3 | (7.6) | – | |\n| Probuild credit loss | B3 | (34.6) | – | |\n| Bid costs | B3 | (12.7) | – | |\n| Gain on sale of property, plant and equipment | B3 | 85.8 | – | |\n| SaaS arrangements | B3 | – | (14.0) | |\n| Laundries divestment | B3 | – | (16.2) | |\n| Mining divestment | B3 | – | (19.5) | |\n| Amortisation of Spotless and Tenix acquired intangible assets | | (24.4) | (49.6) | |\n| Corporate costs | | (100.5) | (103.2) | |\n| Total unallocated | | (166.1) | (219.1) | |\n| Earnings before interest and tax | | 323.2 | 334.8 | |\n| Net finance costs | | (85.4) | (104.9) | |\n| Profit before income tax | | 237.8 | 229.9 | |\n| Income tax expense | B5(a) | (85.8) | (46.2) | |\n| Profit after income tax | | 152.0 | 183.7 | |\n\n#### **Segment assets by geographical location**"
+  },
+  {
+    "company": "Downer EDI Limited",
+    "question": "Since what year has a formal program of Director site visits been in place at Downer EDI Limited?",
+    "expected_answer": "A formal program of Director site visits has been in place since 2009.",
+    "key_fact": "since 2009",
+    "source_page": 140,
+    "source_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f_p139_c2",
+    "source_text": "Company: Downer EDI Limited | Page: 140\n\nDirectors are encouraged to continually build on their exposure to the Company's business and a formal program of Director site visits has been in place since 2009. Directors are also encouraged to attend appropriate training and professional development courses to update and enhance their skills and knowledge and the Company Secretary regularly organises governance and other continuing education sessions for the Board.\n\nThe Board is provided with the information it needs to discharge its responsibilities effectively. The Directors also have access to the Company Secretary for all Board and governancerelated issues and the appointment and removal of the Company Secretary is determined by the Board. The Company Secretary is accountable to the Board, through the Chair, on all governance matters."
+  },
+  {
+    "company": "Downer EDI Limited",
+    "question": "When was Teresa Gayle Handicott appointed as an Independent Non-executive Director?",
+    "expected_answer": "Teresa Gayle Handicott has been an Independent Non-executive Director since September 2016.",
+    "key_fact": "September 2016",
+    "source_page": 7,
+    "source_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f_p6_c1",
+    "source_text": "Company: Downer EDI Limited | Page: 7\n\nMr Binns holds a Bachelor of Laws from the University of Auckland.\n\nMr Binns lives in Auckland.\n\n#### **TERESA GAYLE HANDICOTT (59)**\n\n#### Independent Non-executive Director since September 2016\n\nMs Handicott is a former corporate lawyer with over 30 years' experience in mergers and acquisitions, capital markets and corporate governance. She was a partner of national law firm Corrs Chambers Westgarth for 22 years, serving as a member of its National Board for seven years including four years as National Chairman. She also has extensive experience in governance of local and state government organisations.\n\nMs Handicott is currently the Chairman of listed company PWR Holdings Limited and of Peak Services Holdings Pty Ltd, which is the subsidiary of the Local Government Association of Queensland that is responsible for its commercial operations. Ms Handicott is also State President of the Queensland Division of the Australian Institute of Company Directors."
+  },
+  {
+    "company": "Downer EDI Limited",
+    "question": "What percentage of performance rights qualify for vesting if Downer EDI Limited's TSR ranking is at the 50th percentile?",
+    "expected_answer": "30%",
+    "key_fact": "30%",
+    "source_page": 36,
+    "source_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f_p35_c3",
+    "source_text": "Company: Downer EDI Limited | Page: 36\n\n| Purpose of LTI plan | § Focus performance on drivers of shareholder value over a three-year period | | | | |\n|---|---|---|--|--|--|\n| | The relative TSR performance condition is based on the Company's TSR performance relative to the TSR of companies comprising the ASX 100 index, excluding financial services companies, at the start of the performance period, measured over the three years to 30 June 2024. | | | | |\n| | TSR test is shown in the table below: | The performance vesting scale that will apply to the performance rights subject to the relative | | | |\n| | Downer EDI Limited's TSR Ranking | Percentage of performance rights subject to TSR condition that qualify for vesting | | | |\n| | < 50th percentile | 0% | | | |\n| | 50th percentile | 30% | | | |\n| | Above 50th and below 75th percentile | Pro-rata so that 2.8% of the performance rights in the tranche will vest for every 1 percentile increase between the 50th percentile and 75th percentile | | | |\n| | 75th percentile and above | 100% | | | |"
+  },
+  {
+    "company": "Odyssey Gold Limited",
+    "question": "Which act permits the Directors' and Officers' Liability Insurance and Company Reimbursement policies for Odyssey Gold Limited?",
+    "expected_answer": "The policies cover all Directors and officers against liabilities to the extent permitted by the Corporations Act 2001.",
+    "key_fact": "Corporations Act 2001",
+    "source_page": 22,
+    "source_id": "0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0_p21_c1",
+    "source_text": "Company: Odyssey Gold Limited | Page: 22\n\n## **PROCEEDINGS ON BEHALF OF THE COMPANY**\n\nNo person has applied for leave of court to bring proceedings on behalf of the Company or intervene in any proceedings to which the Company is a part for the purpose of taking responsibility on behalf of the Company for all or any part of those proceedings. The Company was not a party to any such proceedings during the year.\n\n#### **INSURANCE OF OFFICERS**\n\nThe Company has entered into Deeds of Indemnity with the Directors indemnifying them against certain liabilities and costs to the extent permitted by law.\n\nThe Company has paid, or agreed to pay, a premium in respect of Directors' and Officers' Liability Insurance and Company Reimbursement policies for the 12 months ended 30 June 2022 and 2021, which cover all Directors and officers of the Company against liabilities to the extent permitted by the Corporations Act 2001. The policy conditions preclude the Company from any detailed disclosures including the premium amount paid."
+  },
+  {
+    "company": "Odyssey Gold Limited",
+    "question": "What amount was paid to Ledger Holdings Pty Ltd for business development activities during the period 1 July 2021 to 31 October 2021?",
+    "expected_answer": "Ledger Holdings Pty Ltd was paid $28,000 during the period 1 July 2021 to 31 October 2021.",
+    "key_fact": "$28,000",
+    "source_page": 26,
+    "source_id": "0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0_p25_c1",
+    "source_text": "Company: Odyssey Gold Limited | Page: 26\n\n**1** Mr Briggs was appointed as Managing Director and Chief Executive Officer on 17 January 2022.\n\n**2** Mr Mochkin was appointed as an Executive Director on 1 November 2021 (previously a Non-Executive). In addition, Ledger Holdings Pty Ltd (\"Ledger\"), a company associated with Mr Mochkin, was paid $28,000 during the period 1 July 2021 to 31 October 2021 for the provision of services in relation to business development activities (2021: $45,000) prior to Mr Mochkin being appointed an Executive Director.\n\n**3** KMP effective from 1 July 2021.\n\n| | Short-term benefits | | Post | Share | | |\n|---|---|---|---|---|---|---|\n| | Salary & | | employment benefits | based payments | Total | Performance Related |\n| 2021 | Fees $ | Other $ | $ | $ | $ | % |\n| Directors | | | | | | |\n| Mr Ian Middlemas | 34,500 | - | 3,278 | - | 37,778 | - |\n| Mr Matthew Syme1 | 163,200 | - | - | 78,759 | 241,959 | 33 |\n| Mr Levi Mochkin1 | 30,143 | - | 2,864 | 47,038 | 80,045 | 59 |\n| Mr Robert Behets1 | 21,032 | - | 1,998 | 15,752 | 38,782 | 41 |\n| Total | 248,875 | - | 8,140 | 141,549 | 398,564 | |\n\n**Notes:**"
+  },
+  {
+    "company": "Odyssey Gold Limited",
+    "question": "On what date did Mr Matthew Briggs become the Managing Director and Chief Executive Officer of Odyssey Gold Limited?",
+    "expected_answer": "Mr Matthew Briggs was appointed as Managing Director and Chief Executive Officer effective from 17 January 2022.",
+    "key_fact": "17 January 2022",
+    "source_page": 16,
+    "source_id": "0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0_p15_c2",
+    "source_text": "Company: Odyssey Gold Limited | Page: 16\n\nHowever, there is uncertainty about the length and potential impact of any resultant disturbance. As a result, we are unable to estimate the potential impact on the Group's future operations as at the date of these Financial Statements.\n\n#### **Corporate**\n\nDuring the year, the Company appointed highly respected gold geologist, Mr Matthew Briggs, as Managing Director and Chief Executive Officer (\"CEO\") of the Company, effective from 17 January 2022. Mr Briggs is an expert and experienced professional exploration geologist with an ideal background in gold exploration and mining in Australia, most recently as Managing Director of Tanami gold explorer, Prodigy Gold Ltd."
+  },
+  {
+    "company": "Odyssey Gold Limited",
+    "question": "How many RC holes were completed during the 2022 drill program on the Tuckanarra Project?",
+    "expected_answer": "A total of 131 RC holes were completed.",
+    "key_fact": "131 holes",
+    "source_page": 5,
+    "source_id": "0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0_p4_c0",
+    "source_text": "Company: Odyssey Gold Limited | Page: 5\n\n*Figure 2 - Highlight results from FY2022 drilling on the Tuckanarra Project.*\n\n## **Drilling**\n\n**DIRECTORS' REPORT**\n\n**OPERATING AND FINANCIAL REVIEW (continued)**\n\nThe Company successfully completed the 2022 drill program, with more strong results (Figure 2) delivered from both RC and DD drilling across the Tuckanarra Project. A total of 131 holes (23,131m) of RC, 15 holes (3,649m) of\n\nThe results continue to demonstrate the potential near-term open pit development scenarios and future underground mining potential of the Tuckanarra Project. The future development of targets will be aided by the majority being located on granted mining leases, prior baseline environmental studies, and production records.\n\n• Drilling has defined high grade mineralisation at the Highway Zone. Significant assays from this target reported\n\n• The Highway Zone, which was first recognised in late 2021, continues to be the priority advanced target as we\n\n• Drilling demonstrates continuity of gold grades at depth in the Bollard and Cable Pits, with 150m of continuous\n\n• Drilling has defined a numerous >25 gram metres (length x grade) on a shallow plunging shoot for 500m to the"
+  },
+  {
+    "company": "NextNav Inc.",
+    "question": "Where are expenditures for maintenance and repairs that do not materially extend useful lives charged as incurred?",
+    "expected_answer": "Expenditures for maintenance and repairs that do not materially extend the useful lives of property and equipment are charged to cost of goods sold and selling, general and administrative as incurred.",
+    "key_fact": "cost of goods sold",
+    "source_page": 66,
+    "source_id": "0f111d244aee3d976684995a222fa177a64571c4_p65_c2",
+    "source_text": "Company: NextNav Inc. | Page: 66\n\n#### *Property and Equipment, Network under Construction and Intangible Assets*\n\nProperty and equipment, net of accumulated depreciation and network under construction are recorded at cost. Employee-related costs for construction of network assets are also capitalized during the construction phase. Expenditures for maintenance and repairs that do not materially extend the useful lives of property and equipment are charged to cost of goods sold (\"COGS\") and selling, general and administrative (\"SG&A\") as incurred. When property or equipment is retired or otherwise disposed of, the related property accounts are relieved of costs and accumulated depreciation and any resulting gain or loss is included in the Consolidated Statements of Comprehensive Loss."
+  },
+  {
+    "company": "NextNav Inc.",
+    "question": "What is the date of the certification for NextNav Inc.'s Annual Report on Form 10-K for the year ended December 31, 2022?",
+    "expected_answer": "March 30, 2023",
+    "key_fact": "March 30, 2023",
+    "source_page": 93,
+    "source_id": "0f111d244aee3d976684995a222fa177a64571c4_p92_c0",
+    "source_text": "Company: NextNav Inc. | Page: 93\n\n# **CERTIFICATION PURSUANT TO 18 U.S.C. SECTION 1350, AS ADOPTED PURSUANT TO SECTION 906 OF THE SARBANES-OXLEY ACT OF 2002**\n\n<span id=\"page-92-0\"></span>In connection with the Annual Report on Form 10-K of NextNav Inc. (the \"Company\") for the year ended December 31, 2022, as filed with the Securities and Exchange Commission on the date hereof (the \"Report\"), the undersigned each hereby certifies pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, that to the best of his knowledge, on the date hereof:\n\n(1) the Report fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934, as amended; and\n\n(2) the information contained in the Report fairly presents, in all material respects, the financial condition and results of operations of the Company.\n\nDated: March 30, 2023\n\n/s/ Ganesh Pattabiraman\n\nName: Ganesh Pattabiraman Title: President and Chief Executive Officer *(Principal Executive Of icer)*\n\nDated: March 30, 2023\n\n/s/ Christian D. Gates\n\nName: Christian D. Gates Title: Chief Financial Officer *(Principal Financial Of icer)*"
+  },
+  {
+    "company": "NextNav Inc.",
+    "question": "Which third-party companies are mentioned as providers that the company heavily relies on for products and business operations?",
+    "expected_answer": "AT&T, Verizon and Amazon Web Services",
+    "key_fact": "AT&T, Verizon and Amazon Web Services",
+    "source_page": 5,
+    "source_id": "0f111d244aee3d976684995a222fa177a64571c4_p4_c2",
+    "source_text": "Company: NextNav Inc. | Page: 5\n\n- We are heavily reliant on third parties, including AT&T, Verizon and Amazon Web Services for a variety of our products and business operations, as well as on a limited number of key vendors for timely supply of components necessary for our offerings. - Our Pinnacle service in smartphones relies on the availability of barometric pressure measurements and 2D location being made available to us or our customers. - We may not be successful in the evolution of our TerraPoiNT technology to utilize LTE/5G signals, which will increase our costs and may increase the challenge of adopting our services. - Our hybrid architecture, which depends on the use of our transmitters and our ability to calibrate signals transmitted by third parties, is unproven, may not perform well and may cost significantly more than our initial estimates. - Our services' full potential is contingent on our distribution partners' and customers' access to a variety of third-party platforms, which creates a number of uncertainties and potential risks. - Our services are available within defined network footprints, and if we are not able to deploy new infrastructure, we will not be able to expand our service area."
+  },
+  {
+    "company": "NextNav Inc.",
+    "question": "What anti-corruption laws are specifically mentioned as applicable to NextNav Inc.'s international business?",
+    "expected_answer": "The anti-corruption laws mentioned include the FCPA.",
+    "key_fact": "the FCPA",
+    "source_page": 37,
+    "source_id": "0f111d244aee3d976684995a222fa177a64571c4_p36_c1",
+    "source_text": "Company: NextNav Inc. | Page: 37\n\nAlthough our international business is still in its early stages, its development is subject to both U.S. and foreign laws and regulations, including, without limitation, laws and regulations relating to export/import controls (described above), sanctions, technology transfer restrictions, government contracts and procurement, data privacy and protection, anti-corruption laws, including the FCPA, the anti-boycott provisions of the U.S. Export Administration Act, security restrictions and intellectual property. Failure by us, our employees, affiliates, partners or others with whom we work to comply with applicable laws and regulations could result in administrative, civil, commercial or criminal liabilities, including suspension or debarment from government contracts or suspension of our export/import privileges. New regulations and requirements, or changes to existing ones in the various countries in which we operate can significantly increase our costs and risks of doing business internationally."
+  }
+]
