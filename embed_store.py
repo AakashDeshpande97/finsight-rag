@@ -3,7 +3,7 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 from ingest import build_chunks, find
 
-N_COMPANIES = 5
+N_COMPANIES = 100
 MODEL_NAME = "BAAI/bge-small-en-v1.5"
 
 companies = json.loads(find("subset.json").read_text(encoding="utf-8"))[:N_COMPANIES]
