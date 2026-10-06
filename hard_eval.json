@@ -1,0 +1,55 @@
+[
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "paraphrase",
+    "question": "How much profit did the company make in 2022?",
+    "expected_answer": "Net income of $10,426 thousand (about $10.4 million) for the year ended December 31, 2022.",
+    "key_fact": "10,426"
+  },
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "trap",
+    "question": "Did the company make a profit for its common shareholders in 2022?",
+    "expected_answer": "No. After allocations to preferred shares, net loss allocable to common shares was $(8,799) thousand in 2022, even though total net income was $10,426 thousand.",
+    "key_fact": "8,799"
+  },
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "number",
+    "question": "What were the basic earnings per common share in 2022?",
+    "expected_answer": "A loss of $(1.00) per common share (basic) for 2022.",
+    "key_fact": "1.00"
+  },
+  {
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "yes/no",
+    "question": "Did the company pay any common share distributions in 2022?",
+    "expected_answer": "No. The company did not pay any common share distributions in 2022 (nor in 2021 or 2020)."
+  },
+  {
+    "company": "Downer EDI Limited",
+    "type": "paraphrase",
+    "question": "If Downer wants to let its CEO go without misconduct, how much notice does it have to give?",
+    "expected_answer": "12 months' written notice (or payment in lieu of notice).",
+    "key_fact": "12 months"
+  },
+  {
+    "company": "Odyssey Gold Limited",
+    "type": "paraphrase",
+    "question": "What does this company do and what is its main project?",
+    "expected_answer": "It is a gold exploration company; its main project is the Tuckanarra Project.",
+    "key_fact": "Tuckanarra"
+  },
+  {
+    "company": "Downer EDI Limited",
+    "type": "unanswerable",
+    "question": "What was the company's revenue in financial year 2025?",
+    "expected_answer": "The report does not contain this information (it is a 2022 annual report)."
+  },
+  {
+    "company": "NextNav Inc.",
+    "type": "unanswerable",
+    "question": "How many employees does the company have in Germany?",
+    "expected_answer": "The report does not contain this information."
+  }
+]

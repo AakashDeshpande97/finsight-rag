@@ -1,0 +1,154 @@
+[
+  {
+    "question": "How much profit did the company make in 2022?",
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "paraphrase",
+    "expected_answer": "Net income of $10,426 thousand (about $10.4 million) for the year ended December 31, 2022.",
+    "rag_answer": "The provided sources do not contain this information.",
+    "retrieved_pages": [
+      140,
+      15,
+      59,
+      39,
+      142
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": false,
+    "answer_method": "judge",
+    "judge_reason": "The expected answer provides the net income for 2022, but the system answer incorrectly stated that the provided sources do not contain this information."
+  },
+  {
+    "question": "Did the company make a profit for its common shareholders in 2022?",
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "trap",
+    "expected_answer": "No. After allocations to preferred shares, net loss allocable to common shares was $(8,799) thousand in 2022, even though total net income was $10,426 thousand.",
+    "rag_answer": "The provided sources do not contain this information.",
+    "retrieved_pages": [
+      132,
+      122,
+      4,
+      82,
+      133
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": false,
+    "answer_method": "judge",
+    "judge_reason": "The expected answer provides the information that the company did not make a profit for its common shareholders in 2022, but the system answer incorrectly claims the sources do not contain this information."
+  },
+  {
+    "question": "What were the basic earnings per common share in 2022?",
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "number",
+    "expected_answer": "A loss of $(1.00) per common share (basic) for 2022.",
+    "rag_answer": "The basic net loss per common share for the year ended December 31, 2022, was $(1.00) [1].",
+    "retrieved_pages": [
+      133,
+      133,
+      76,
+      133,
+      82
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": true,
+    "answer_method": "key fact",
+    "judge_reason": ""
+  },
+  {
+    "question": "Did the company pay any common share distributions in 2022?",
+    "company": "ACRES Commercial Realty Corp.",
+    "type": "yes/no",
+    "expected_answer": "No. The company did not pay any common share distributions in 2022 (nor in 2021 or 2020).",
+    "rag_answer": "No, the Company did not pay any common share distributions for the year ended December 31, 2022 [1, 2, 3].",
+    "retrieved_pages": [
+      133,
+      82,
+      47,
+      131,
+      76
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": true,
+    "answer_method": "judge",
+    "judge_reason": "The system answer correctly states that the company did not pay any common share distributions for the year ended December 31, 2022, matching the key information in the expected answer."
+  },
+  {
+    "question": "If Downer wants to let its CEO go without misconduct, how much notice does it have to give?",
+    "company": "Downer EDI Limited",
+    "type": "paraphrase",
+    "expected_answer": "12 months' written notice (or payment in lieu of notice).",
+    "rag_answer": "If Downer wants to terminate the Managing Director's (CEO's) employment (without misconduct), it must provide 12 months' written notice [1, 3].",
+    "retrieved_pages": [
+      49,
+      49,
+      48,
+      128,
+      142
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": true,
+    "answer_method": "key fact",
+    "judge_reason": ""
+  },
+  {
+    "question": "What does this company do and what is its main project?",
+    "company": "Odyssey Gold Limited",
+    "type": "paraphrase",
+    "expected_answer": "It is a gold exploration company; its main project is the Tuckanarra Project.",
+    "rag_answer": "Based on the provided sources, the Company operates in one segment, which is the exploration for mineral resources [1]. Its main project is the Tuckanarra Project [2], [5], which includes the Tuckanarra Gold Project in Western Australia [5] and features the Cable-Bollard Trend [2].",
+    "retrieved_pages": [
+      54,
+      8,
+      52,
+      66,
+      17
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": true,
+    "answer_method": "key fact",
+    "judge_reason": ""
+  },
+  {
+    "question": "What was the company's revenue in financial year 2025?",
+    "company": "Downer EDI Limited",
+    "type": "unanswerable",
+    "expected_answer": "The report does not contain this information (it is a 2022 annual report).",
+    "rag_answer": "The provided sources do not contain this information.",
+    "retrieved_pages": [
+      71,
+      71,
+      72,
+      69,
+      83
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": true,
+    "answer_method": "judge",
+    "judge_reason": "The system answer correctly states that the provided sources do not contain this information, which matches the expected answer."
+  },
+  {
+    "question": "How many employees does the company have in Germany?",
+    "company": "NextNav Inc.",
+    "type": "unanswerable",
+    "expected_answer": "The report does not contain this information.",
+    "rag_answer": "The provided sources do not contain this information.",
+    "retrieved_pages": [
+      20,
+      10,
+      29,
+      39,
+      19
+    ],
+    "chunk_hit": null,
+    "page_hit": null,
+    "answer_ok": true,
+    "answer_method": "judge",
+    "judge_reason": "The system answer correctly identifies that the information is not present in the sources, matching the expected answer."
+  }
+]
