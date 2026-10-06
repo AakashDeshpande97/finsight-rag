@@ -3,7 +3,7 @@ import time
 from dotenv import load_dotenv
 from google import genai
 from google.genai import errors, types
-from search import search
+from hybrid_search import hybrid_search
 
 load_dotenv()
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
@@ -45,13 +45,13 @@ def generate(prompt):
 
 
 def ask(question, company, k=5):
-    results = search(question, company=company, k=k)          # R: retrieve
+    results = hybrid_search(question, company, k=k)           # R: retrieve (hybrid)
     answer, model = generate(build_prompt(question, results))  # A + G: augment + generate
     print(f"\n### Q: {question} ({company})")
     print(answer)
     print("\nSources:")
     for i, (_, meta, dist) in enumerate(results, 1):
-        print(f"  [{i}] {meta['company']}, page {meta['page']} (distance {dist:.3f})")
+        print(f"  [{i}] {meta['company']}, PDF page {meta['page']} (score {dist:.4f})")
     print(f"(answered by {model})")
 
 

@@ -1,0 +1,47 @@
+
+### Q: How much notice must the CEO give to resign? (Downer EDI Limited)
+To resign, the Managing Director and CEO (Mr Fenn) must provide six months' written notice [1, 3].
+
+Sources:
+  [1] Downer EDI Limited, PDF page 49 (score 0.0328)
+  [2] Downer EDI Limited, PDF page 49 (score 0.0323)
+  [3] Downer EDI Limited, PDF page 48 (score 0.0313)
+  [4] Downer EDI Limited, PDF page 138 (score 0.0313)
+  [5] Downer EDI Limited, PDF page 132 (score 0.0246)
+(answered by gemini-flash-lite-latest)
+
+### Q: What risks does the company face from clinical trials? (Aptevo Therapeutics Inc.)
+Based on the provided sources, the company faces several risks related to clinical trials:
+
+* Other companies in the pharmaceutical and biopharmaceutical industry have suffered significant setbacks in advanced clinical trials due to a lack of efficacy or adverse safety profiles despite promising earlier results, and the company cannot be certain it will not face similar setbacks [1].
+* The large majority of product candidates that begin human clinical trials fail to demonstrate the required safety and efficacy characteristics necessary for marketing approval [2].
+* Failure to demonstrate safety and efficacy for any product candidate in target indication clinical trials prevents the company from obtaining required regulatory approvals to commercialize those products [2].
+* Negative or inconclusive clinical trial results or adverse medical events can lead to requirements that trials be repeated, extended, or additional trials conducted (which may not be clinically or financially practicable), that trial conduct be suspended, or that a program be terminated [2].
+* Results from current and planned preclinical studies and clinical trials may not satisfy the requirements of the FDA or non-U.S. regulatory authorities [3].
+* Results from early preclinical studies and clinical trials may not predict results from later-stage or other trials, and interim or top-line data may change or be qualified based on complete data analyses [3].
+* Delays or difficulties in the commencement, site initiation, patient enrollment, or completion of clinical trials could delay the time to reach critical trial data and receive necessary regulatory approvals [4].
+* There can be significant variability in safety or efficacy results between different clinical trials of the same product candidate due to numerous factors, such as changes in trial procedures, differences in patient population size and type, changes in dosing regimen adherence and protocols, and participant dropout rates [5].
+* Preclinical and clinical data are often susceptible to various interpretations and analyses, and many companies with product candidates that performed satisfactorily in preclinical and clinical studies have still failed to obtain marketing approval [5].
+* Product candidates in later stages of clinical trials may fail to show the desired safety and efficacy profile even after progressing through preclinical studies and initial clinical trials [5].
+
+Sources:
+  [1] Aptevo Therapeutics Inc., PDF page 34 (score 0.0318)
+  [2] Aptevo Therapeutics Inc., PDF page 47 (score 0.0313)
+  [3] Aptevo Therapeutics Inc., PDF page 34 (score 0.0299)
+  [4] Aptevo Therapeutics Inc., PDF page 25 (score 0.0294)
+  [5] Aptevo Therapeutics Inc., PDF page 34 (score 0.0288)
+(answered by gemini-flash-lite-latest)
+
+### Q: What was the net income for the year? (ACRES Commercial Realty Corp.)
+Based on the provided sources, the net income (loss) for the years ended December 31 was:
+- For 2022: $10,426 (in thousands) [1, 2]
+- For 2021: $33,923 (in thousands) [1, 2]
+- For 2020: $(197,713) (in thousands) [1, 2]
+
+Sources:
+  [1] ACRES Commercial Realty Corp., PDF page 133 (score 0.0305)
+  [2] ACRES Commercial Realty Corp., PDF page 94 (score 0.0284)
+  [3] ACRES Commercial Realty Corp., PDF page 143 (score 0.0284)
+  [4] ACRES Commercial Realty Corp., PDF page 43 (score 0.0267)
+  [5] ACRES Commercial Realty Corp., PDF page 88 (score 0.0251)
+(answered by gemini-flash-lite-latest)
