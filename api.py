@@ -62,9 +62,11 @@ def companies():
 def ask(req: AskRequest):
     company = BY_LOWER.get(req.company.strip().lower())
     if company is None:
-        suggestions = difflib.get_close_matches(req.company, COMPANIES, n=3, cutoff=0.3)
-        raise HTTPException(status_code=404,
-                            detail={"error": f"Unknown company: {req.company}", "did_you_mean": suggestions})
+        query = req.company.strip().lower()
+        suggestions = [n for n in COMPANIES if query in n.lower()][:3]      # partial name, e.g. "acres"
+        if not suggestions:
+            suggestions = difflib.get_close_matches(req.company, COMPANIES, n=3, cutoff=0.3)  # typos
+        raise HTTPException(status_code=404,detail={"error": f"Unknown company: {req.company}", "did_you_mean": suggestions})
     try:
         out = answer_question(req.question, company, rewrite=req.rewrite)
     except RuntimeError as e:                       # all Gemini models unavailable
