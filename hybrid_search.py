@@ -2,15 +2,8 @@ import re
 from rank_bm25 import BM25Okapi
 from search import collection, search
 from tracing import observe
+from text_utils import tokenize
 
-STOPWORDS = {"what", "was", "were", "the", "for", "of", "a", "an", "is", "in", "to",
-             "and", "did", "does", "do", "how", "much", "many", "year", "company"}
-
-
-def tokenize(text):
-    words = [w for w in re.findall(r"[a-z]+", text.lower()) if w not in STOPWORDS]
-    bigrams = [f"{a}_{b}" for a, b in zip(words, words[1:])]
-    return words + bigrams
 
 def keyword_search(question, company, k=30):
     """BM25 keyword search over one company's chunks."""
