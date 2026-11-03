@@ -1,5 +1,5 @@
 # FinSight RAG
-
+![CI](https://github.com/AakashDeshpande97/finsight-rag/actions/workflows/ci.yml/badge.svg)
 **Question answering over 100 corporate annual reports, with page-level citations.**
 
 Ask a question like *"How much profit did ACRES Commercial Realty make in 2022?"* and get a grounded answer with the exact PDF pages it came from, or an honest "the sources do not contain this information" when the answer isn't there.
