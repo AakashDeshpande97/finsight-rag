@@ -27,7 +27,7 @@ def build_prompt(question, results):
 
 
 @observe(name="rag_answer")
-def answer_question(question, company, k=5, rewrite=True):
+def answer_question(question, company, k=8, rewrite=True):
     """Run the full RAG pipeline and RETURN the result (used by the API and evaluation)."""
     if rewrite:
         results, queries = multi_query_search(question, company, k=k)   # R (with rewriting)

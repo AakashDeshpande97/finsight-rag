@@ -1,4 +1,4 @@
-"""Run an evaluation file through the RAG pipeline and score it.
+"""Run an evaluation file through the RAG pipeline, score it, and send the scores to Langfuse.
 
 Usage:
     python evaluate.py                    # uses eval_set.json (synthetic)
@@ -11,23 +11,29 @@ Retrieval metrics (only for questions that have a known source):
 Answer metric:
   - key fact found in the answer  -> correct (cheap, no LLM call)
   - otherwise an LLM judge decides (only runs when needed)
+
+In Langfuse, every question becomes one trace named "eval_item" (with the RAG pipeline and
+the judge nested inside), carrying the scores answer_correct, page_hit and chunk_hit.
 """
 import json
 import re
 import sys
 import time
 from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
 
 from google.genai import types
 from pydantic import BaseModel
 
+from tracing import langfuse
 from llm import generate
 from rag import answer_question
 
 SLEEP_SECONDS = 13
 EVAL_FILE = sys.argv[1] if len(sys.argv) > 1 else "eval_set.json"
 RESULTS_FILE = EVAL_FILE.replace(".json", "_results.json")
+RUN_NAME = f"{Path(EVAL_FILE).stem} {datetime.now():%Y-%m-%d %H:%M}"   # groups one eval run
 
 
 class Verdict(BaseModel):
@@ -75,24 +81,37 @@ def mark(value):
 
 
 eval_set = json.loads(Path(EVAL_FILE).read_text(encoding="utf-8"))
-print(f"Evaluating {len(eval_set)} questions from {EVAL_FILE}\n")
+print(f"Evaluating {len(eval_set)} questions from {EVAL_FILE}  (Langfuse run: {RUN_NAME})\n")
 results = []
 
 for i, item in enumerate(eval_set, 1):
-    out = answer_question(item["question"], item["company"])
-    time.sleep(SLEEP_SECONDS)
+    with langfuse.start_as_current_observation(as_type="span", name="eval_item") as span:
+        span.update(input={"question": item["question"], "company": item["company"]},
+                    metadata={"eval_run": RUN_NAME, "type": item.get("type", "")})
 
-    retrieved_texts = [doc for doc, _, _ in out["results"]]
-    retrieved_pages = [meta["page"] for _, meta, _ in out["results"]]
-    chunk_hit = item["source_text"] in retrieved_texts if "source_text" in item else None
-    page_hit = item["source_page"] in retrieved_pages if "source_page" in item else None
+        out = answer_question(item["question"], item["company"])
+        time.sleep(SLEEP_SECONDS)
 
-    key_fact = item.get("key_fact", "")
-    if key_fact and normalise(key_fact) in normalise(out["answer"]):
-        answer_ok, method, reason = True, "key fact", ""
-    else:
-        verdict = judge(item, out["answer"])
-        answer_ok, method, reason = verdict.correct, "judge", verdict.reason
+        retrieved_texts = [doc for doc, _, _ in out["results"]]
+        retrieved_pages = [meta["page"] for _, meta, _ in out["results"]]
+        chunk_hit = item["source_text"] in retrieved_texts if "source_text" in item else None
+        page_hit = item["source_page"] in retrieved_pages if "source_page" in item else None
+
+        key_fact = item.get("key_fact", "")
+        if key_fact and normalise(key_fact) in normalise(out["answer"]):
+            answer_ok, method, reason = True, "key fact", ""
+        else:
+            verdict = judge(item, out["answer"])
+            answer_ok, method, reason = verdict.correct, "judge", verdict.reason
+
+        # ---- send the scores to Langfuse, attached to this question's trace ----
+        span.update(output=out["answer"])
+        span.score_trace(name="answer_correct", value=int(answer_ok), data_type="BOOLEAN",
+                         comment=f"{method}: {reason}" if reason else method)
+        if page_hit is not None:
+            span.score_trace(name="page_hit", value=int(page_hit), data_type="BOOLEAN")
+        if chunk_hit is not None:
+            span.score_trace(name="chunk_hit", value=int(chunk_hit), data_type="BOOLEAN")
 
     qtype = item.get("type", "")
     print(f"{i:2}. chunk {mark(chunk_hit)} | page {mark(page_hit)} | "
@@ -139,3 +158,5 @@ for t, oks in sorted(by_type.items()):
 
 Path(RESULTS_FILE).write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"\nDetails saved to {RESULTS_FILE}")
+
+langfuse.flush()   # send all traces and scores before the script exits
