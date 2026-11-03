@@ -1,6 +1,7 @@
 """RAG pipeline: (query rewriting) + hybrid retrieval + Gemini generation with citations."""
 from google.genai import types
 
+from tracing import langfuse, observe
 from hybrid_search import hybrid_search
 from llm import generate
 from query_rewrite import multi_query_search
@@ -14,6 +15,7 @@ Rules:
 - Quote numbers exactly as written, including units (e.g. "in thousands")."""
 
 CONFIG = types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT, temperature=0)
+REFUSAL = "The provided sources do not contain this information."
 
 
 def build_prompt(question, results):
@@ -24,6 +26,7 @@ def build_prompt(question, results):
     return f"SOURCES:\n{sources}\n\nQUESTION: {question}"
 
 
+@observe(name="rag_answer")
 def answer_question(question, company, k=5, rewrite=True):
     """Run the full RAG pipeline and RETURN the result (used by the API and evaluation)."""
     if rewrite:
@@ -31,6 +34,13 @@ def answer_question(question, company, k=5, rewrite=True):
     else:
         results, queries = hybrid_search(question, company, k=k), [question]
     response, model = generate(build_prompt(question, results), CONFIG)   # A + G
+
+    langfuse.update_current_span(metadata={
+        "company": company,
+        "rewrite": rewrite,
+        "retrieved_pages": [meta["page"] for _, meta, _ in results],
+        "refused": REFUSAL in response.text,
+    })
     return {"answer": response.text, "results": results, "queries": queries, "model": model}
 
 
@@ -49,3 +59,4 @@ def ask(question, company, k=5, rewrite=True):
 if __name__ == "__main__":
     ask("How much profit did the company make in 2022?", "ACRES Commercial Realty Corp.")
     ask("Did the company make a profit for its common shareholders in 2022?", "ACRES Commercial Realty Corp.")
+    langfuse.flush()   # scripts end quickly: send all traces before exiting

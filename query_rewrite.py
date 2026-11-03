@@ -5,6 +5,7 @@ from pydantic import BaseModel, Field
 
 from hybrid_search import hybrid_search
 from llm import generate
+from tracing import observe
 
 
 class SearchQueries(BaseModel):
@@ -27,11 +28,13 @@ CONFIG = types.GenerateContentConfig(
 )
 
 
+@observe(name="rewrite_query")
 def rewrite(question):
     response, _ = generate(PROMPT.format(question=question), CONFIG)
     return response.parsed.queries
 
 
+@observe(name="multi_query_search")
 def multi_query_search(question, company, k=5, per_query=10, rrf_k=60):
     """Search with the original question + rewritten queries, fuse with RRF.
     Returns (results, queries) so we can log which queries were used."""

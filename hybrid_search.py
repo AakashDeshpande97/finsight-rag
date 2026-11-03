@@ -1,6 +1,7 @@
 import re
 from rank_bm25 import BM25Okapi
 from search import collection, search
+from tracing import observe
 
 STOPWORDS = {"what", "was", "were", "the", "for", "of", "a", "an", "is", "in", "to",
              "and", "did", "does", "do", "how", "much", "many", "year", "company"}
@@ -19,7 +20,7 @@ def keyword_search(question, company, k=30):
     top = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:k]
     return [(data["documents"][i], data["metadatas"][i]) for i in top]
 
-
+@observe(name="hybrid_search")
 def hybrid_search(question, company, k=5, candidates=30, rrf_k=60):
     """Combine vector and keyword results with Reciprocal Rank Fusion."""
     vector_results = search(question, company=company, k=candidates)
