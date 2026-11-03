@@ -162,6 +162,6 @@ gcloud artifacts repositories delete rag-repo --location europe-west1
 ## Roadmap
 
 - [x] v1: RAG pipeline, hybrid search, query rewriting, evaluation, Cloud Run deployment
-- [ ] v2: Langfuse tracing, evaluation in CI (GitHub Actions)
+- [x] v2: Langfuse tracing and evaluation scores, unit tests and CI (GitHub Actions)
 - [ ] v3: LangGraph agent combining document search with SQL over extracted financial figures (PostgreSQL + pgvector)
 - [ ] v4: Second deployment on Azure Container Apps
