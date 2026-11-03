@@ -4,13 +4,16 @@
     "company": "ACRES Commercial Realty Corp.",
     "type": "paraphrase",
     "expected_answer": "Net income of $10,426 thousand (about $10.4 million) for the year ended December 31, 2022.",
-    "rag_answer": "In 2022, the company's net income was $10,426 (in thousands) [5].",
+    "rag_answer": "In 2022, the net income for ACRES Commercial Realty Corp. and subsidiaries was $10,426 (in thousands) [5].",
     "retrieved_pages": [
       59,
       15,
       47,
       39,
-      95
+      95,
+      114,
+      69,
+      140
     ],
     "chunk_hit": null,
     "page_hit": null,
@@ -23,13 +26,16 @@
     "company": "ACRES Commercial Realty Corp.",
     "type": "trap",
     "expected_answer": "No. After allocations to preferred shares, net loss allocable to common shares was $(8,799) thousand in 2022, even though total net income was $10,426 thousand.",
-    "rag_answer": "Based on the provided sources, the company did not make a profit for its common shareholders in 2022, as it reported a net loss allocable to common shares of $(8,799) thousand [3].",
+    "rag_answer": "Based on the provided sources, the company did not make a profit (net income) for its common shareholders in 2022. Instead, it reported a net loss allocable to common shares of $(8,799) thousand (or $8,799 thousand in thousands) for the year ended December 31, 2022 [2].",
     "retrieved_pages": [
-      82,
       76,
       133,
+      76,
+      82,
+      75,
+      4,
       122,
-      132
+      78
     ],
     "chunk_hit": null,
     "page_hit": null,
@@ -42,13 +48,16 @@
     "company": "ACRES Commercial Realty Corp.",
     "type": "number",
     "expected_answer": "A loss of $(1.00) per common share (basic) for 2022.",
-    "rag_answer": "The net (loss) income per common share - basic for the year ended December 31, 2022, was $(1.00) [1].",
+    "rag_answer": "Based on the provided sources, the net (loss) income per common share - basic in 2022 was $(1.00) [1].",
     "retrieved_pages": [
       133,
+      76,
       133,
+      143,
       76,
-      76,
-      47
+      47,
+      133,
+      108
     ],
     "chunk_hit": null,
     "page_hit": null,
@@ -61,32 +70,38 @@
     "company": "ACRES Commercial Realty Corp.",
     "type": "yes/no",
     "expected_answer": "No. The company did not pay any common share distributions in 2022 (nor in 2021 or 2020).",
-    "rag_answer": "For the year ended December 31, 2022, the company did not pay any common share distributions [4].",
+    "rag_answer": "No, the company did not pay any common share distributions for the year ended December 31, 2022 [2, 4, 5].",
     "retrieved_pages": [
       76,
-      76,
-      44,
       133,
-      47
+      76,
+      47,
+      82,
+      133,
+      49,
+      134
     ],
     "chunk_hit": null,
     "page_hit": null,
     "answer_ok": true,
     "answer_method": "judge",
-    "judge_reason": "The system answer correctly states that the company did not pay any common share distributions for the year ended December 31, 2022, which matches the expected answer."
+    "judge_reason": "The system answer correctly identifies that the company did not pay any common share distributions in 2022, matching the expected answer."
   },
   {
     "question": "If Downer wants to let its CEO go without misconduct, how much notice does it have to give?",
     "company": "Downer EDI Limited",
     "type": "paraphrase",
     "expected_answer": "12 months' written notice (or payment in lieu of notice).",
-    "rag_answer": "Downer can terminate the employment of the Managing Director and Chief Executive Officer (Mr Fenn) by providing 12 months' written notice [1, 2].",
+    "rag_answer": "Downer can terminate the employment of the Managing Director and Chief Executive Officer (CEO), Mr Fenn, by providing 12 months' written notice [1, 2]. When notice is required, Downer can also make a payment in lieu of notice of all or part of any notice period [2].",
     "retrieved_pages": [
       48,
       49,
       49,
+      138,
+      73,
       51,
-      138
+      51,
+      25
     ],
     "chunk_hit": null,
     "page_hit": null,
@@ -99,13 +114,16 @@
     "company": "Odyssey Gold Limited",
     "type": "paraphrase",
     "expected_answer": "It is a gold exploration company; its main project is the Tuckanarra Project.",
-    "rag_answer": "The principal activities of the Group consist of the exploration and development of mineral resource projects in Western Australia [3]. The Company operates in the segment of exploration for mineral resources [1]. \n\nTo achieve its objectives, the Group intends to conduct further exploration activities, including field work, to follow up targets identified at the Tuckanarra and Stakewell Gold Projects [3].",
+    "rag_answer": "Based on the provided sources, the principal activities of the Group during the year consisted of the exploration and development of mineral resource projects in Western Australia [8]. Specifically, the Company operates in one segment, which is the exploration for mineral resources in Australia [1]. To achieve its objective of creating long-term shareholder value, the Group currently intends over the medium term to conduct further exploration activities including field work to follow up targets identified at the Tuckanarra and Stakewell Gold Projects [8].",
     "retrieved_pages": [
       54,
+      18,
+      52,
+      43,
       38,
-      17,
-      38,
-      25
+      43,
+      36,
+      17
     ],
     "chunk_hit": null,
     "page_hit": null,
@@ -120,17 +138,20 @@
     "expected_answer": "The report does not contain this information (it is a 2022 annual report).",
     "rag_answer": "The provided sources do not contain this information.",
     "retrieved_pages": [
+      91,
+      71,
+      83,
       72,
+      71,
+      69,
       54,
-      71,
-      71,
-      91
+      69
     ],
     "chunk_hit": null,
     "page_hit": null,
     "answer_ok": true,
     "answer_method": "judge",
-    "judge_reason": "The system answer correctly identifies that the information is not present in the provided sources, which matches the expected answer."
+    "judge_reason": "The system answer correctly identifies that the information is not present in the provided sources, which aligns with the expected answer."
   },
   {
     "question": "How many employees does the company have in Germany?",
@@ -141,14 +162,17 @@
     "retrieved_pages": [
       20,
       43,
-      39,
       10,
-      55
+      11,
+      39,
+      55,
+      19,
+      29
     ],
     "chunk_hit": null,
     "page_hit": null,
     "answer_ok": true,
     "answer_method": "judge",
-    "judge_reason": "The expected answer states that the information is not in the report, and the system answer correctly states that the provided sources do not contain this information without inventing an answer."
+    "judge_reason": "The system answer correctly identifies that the requested information is not present in the provided sources, which matches the expected answer."
   }
 ]
