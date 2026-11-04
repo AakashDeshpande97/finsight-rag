@@ -8,11 +8,13 @@ import json
 import os
 import sqlite3
 import sys
+import uuid
 
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.tools import tool
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langfuse.langchain import CallbackHandler
+from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph import START, MessagesState, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
 
@@ -101,7 +103,7 @@ builder.add_node("tools", ToolNode(TOOLS))
 builder.add_edge(START, "agent")
 builder.add_conditional_edges("agent", tools_condition)   # tool call -> "tools", else -> END
 builder.add_edge("tools", "agent")                         # tool results go back to the model
-graph = builder.compile()
+graph = builder.compile(checkpointer=InMemorySaver())   # remembers conversations per thread_id
 
 
 def _text(content):
@@ -110,20 +112,28 @@ def _text(content):
     return content
 
 
-def ask_agent(question):
-    """Run the agent and RETURN the answer plus every tool call (used by the API and evaluation)."""
-    result = graph.invoke(
-        {"messages": [HumanMessage(question)]},
-        config={"recursion_limit": 12, "callbacks": [CallbackHandler()]},  # cap the loop + trace it
-    )
+def ask_agent(question, thread_id=None):
+    """Run the agent and RETURN the answer plus the tool calls of THIS turn.
+    Same thread_id = same conversation (the agent remembers earlier messages).
+    No thread_id = a fresh, one-off conversation."""
+    thread_id = thread_id or str(uuid.uuid4())
+    config = {
+        "configurable": {"thread_id": thread_id},
+        "recursion_limit": 12,                                # cap the loop
+        "callbacks": [CallbackHandler()],                     # trace it in Langfuse
+        "metadata": {"langfuse_session_id": thread_id},       # group a chat's turns in Langfuse
+    }
+    before = len(graph.get_state(config).values.get("messages", []))
+    result = graph.invoke({"messages": [HumanMessage(question)]}, config=config)
+
     tool_calls, tool_results = [], []
-    for msg in result["messages"][1:]:
+    for msg in result["messages"][before + 1:]:               # only this turn's messages
         for call in getattr(msg, "tool_calls", None) or []:
             tool_calls.append({"tool": call["name"], "args": call["args"]})
         if msg.type == "tool":
             tool_results.append(_text(msg.content))
-    return {"answer": _text(result["messages"][-1].content),
-            "tool_calls": tool_calls, "tool_results": tool_results}
+    return {"answer": _text(result["messages"][-1].content), "tool_calls": tool_calls,
+            "tool_results": tool_results, "thread_id": thread_id}
 
 
 def run(question):
