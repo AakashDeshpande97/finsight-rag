@@ -73,11 +73,11 @@ Two test sets, scored separately for retrieval and answers:
 | Test set | Questions | Result |
 |---|---|---|
 | Synthetic (LLM-generated from random chunks, 5 reports, quality-gated) | 20 | Retrieval: 100% at page level (95% exact chunk). Answers: 100% (2 decided by LLM judge) |
-| Hand-written hard set (paraphrases, a sign-flip trap, unanswerable questions) | 8 | 75% with hybrid search, **100% after query rewriting** |
+| Hand-written hard set (paraphrases, a sign-flip trap, unanswerable questions) | 8 | 75% with hybrid search, **100% with query rewriting and 8 chunks of context** |
 
 Honest caveats:
 - These are small sets. Synthetic questions are easier than real user questions, so treat the scores as upper bounds.
-- Results vary somewhat between runs (model updates, non-deterministic rewriting); one paraphrased table question passed in one run and failed in another.
+- Results vary between runs (model updates, non-deterministic rewriting). With 5 chunks of context, failures moved between questions from run to run; raising the context to 8 chunks made the hard set pass consistently.
 - Every answer marked by the LLM judge was spot-checked by hand.
 
 Run it yourself:
@@ -89,15 +89,43 @@ python evaluate.py hard_eval.json   # hard set
 
 ---
 
+## Observability and CI
+
+- **Langfuse tracing:** every question is traced step by step (query rewriting, each hybrid search, each Gemini call) with latency and token usage. A typical question takes about 2 seconds, of which the two LLM calls take about 70%.
+- **Evaluation scores in Langfuse:** each evaluation run attaches `answer_correct`, `page_hit` and `chunk_hit` scores to the question's trace, so a failure can be diagnosed directly from the trace. Example: a failing question about common share *distributions* showed that query rewriting had replaced the report's term with *dividends* in every query.
+- **CI (GitHub Actions):** unit tests for cleaning, table-aware chunking, the BM25 tokenizer and company-name suggestions run on every push to `main` and every pull request. The LLM evaluations need API keys and the vector index, so they run manually.
+
+---
+
+## v3: Agent over structured and unstructured data
+
+A LangGraph agent decides per question which tool to use:
+
+| Tool | Data | Used for |
+|---|---|---|
+| `query_financials` | SQLite table of key figures (revenue, net income, total assets, employees, with source pages) extracted from all 100 reports | Rankings, comparisons, counts across companies |
+| `search_reports` | The RAG pipeline above | Explanations, risks, policies, details |
+
+- **Extraction:** one structured-output call per report (Pydantic schema), unit conversion done in code, resumable with checkpointing. Coverage: net income for 91/100 reports, revenue and total assets for 66/100; spot-checked by hand for 3 companies.
+- **Safety:** the SQL tool uses a read-only connection and accepts only SELECT queries; the agent loop is capped.
+- **Memory:** multi-turn conversations via a LangGraph checkpointer and `thread_id` (`chat.py`, `POST /agent`).
+- **Evaluation:** 7 questions covering SQL, document, combined and unanswerable cases, scored for tool choice and answer correctness (7/7 on both), with scores in Langfuse.
+
+Example: *"Which USD company had the biggest loss, and what caused it?"* → SQL finds Aurora Innovation (net loss $1.72B); when the first document search fails, the agent reformulates and finds the $1,114M goodwill impairment.
+
+---
+
 ## Known limitations
 
-- **Broad questions** ("What are the main risks?") get narrow answers: 5 chunks cannot summarise a whole risk section, and near-duplicate chunks sometimes waste context. Next: deduplication and adaptive `k`.
+- **Broad questions** ("What are the main risks?") get narrow answers: 8 chunks cannot summarise a whole risk section, and near-duplicate chunks sometimes waste context. Next: deduplication and adaptive `k`.
 - **~2% of chunks** exceed the embedding model's 512-token limit and are truncated.
 - **Index baked into the container image** (~920 MB compressed). Fine for a demo; in production, ingestion and serving would be separated, with a managed vector database (e.g. PostgreSQL + pgvector) so new reports can be added without redeploying.
 - **Dataset labels are imperfect** (e.g. a gold explorer labelled "Pharmaceuticals"); answers come from report text, not labels.
-- The demo endpoint has no authentication; cost was capped with `--max-instances 2`. Production would add API keys or IAM and Secret Manager for the Gemini key.
-
----
+- **The demo endpoint has no authentication**; cost was capped with `--max-instances 2`. Production would add API keys or IAM and Secret Manager for the Gemini key.
+- **The agent can carry a wrong assumption across turns**, e.g. guessing a fiscal year it never retrieved.
+- **Agent memory is in-process** (`InMemorySaver`), so conversations are lost on restart; production would need a database-backed checkpointer.
+- **Amounts in 10 currencies are not converted**, so cross-currency comparisons are refused rather than computed.
+- **The deployed Cloud Run version is v1**; the agent and Langfuse tracing have only been run locally so far.
 
 ## Project structure
 
@@ -163,5 +191,5 @@ gcloud artifacts repositories delete rag-repo --location europe-west1
 
 - [x] v1: RAG pipeline, hybrid search, query rewriting, evaluation, Cloud Run deployment
 - [x] v2: Langfuse tracing and evaluation scores, unit tests and CI (GitHub Actions)
-- [ ] v3: LangGraph agent combining document search with SQL over extracted financial figures (PostgreSQL + pgvector)
+- [x] v3: LangGraph agent combining document search with SQL over extracted financial figures
 - [ ] v4: Second deployment on Azure Container Apps
