@@ -13,6 +13,7 @@ from pydantic import BaseModel, Field
 from ingest import find
 from rag import answer_question
 from text_utils import suggest_companies
+from agent import ask_agent
 
 # ---------- Company list (loaded once at startup) ----------
 COMPANIES = sorted(c["company_name"] for c in json.loads(find("subset.json").read_text(encoding="utf-8")))
@@ -46,6 +47,16 @@ class AskResponse(BaseModel):
     search_queries: list[str]
     model: str | None
 
+class AgentRequest(BaseModel):
+    question: str = Field(min_length=5, max_length=500)
+    thread_id: str | None = Field(default=None, description="Send the thread_id from a previous "
+                                                            "answer to continue the conversation")
+
+
+class AgentResponse(BaseModel):
+    answer: str
+    tool_calls: list[dict]
+    thread_id: str
 
 # ---------- Endpoints ----------
 @app.get("/health")
@@ -78,3 +89,13 @@ def ask(req: AskRequest):
     ]
     return AskResponse(answer=out["answer"], sources=sources,
                        search_queries=out["queries"], model=out["model"])
+
+@app.post("/agent", response_model=AgentResponse)
+def agent(req: AgentRequest):
+    """Ask the agent anything across all 100 reports. It chooses between SQL over the key
+    figures and search over the report text. Reuse thread_id to continue a conversation."""
+    try:
+        out = ask_agent(req.question, thread_id=req.thread_id)
+    except Exception as e:
+        raise HTTPException(status_code=503, detail=f"Agent unavailable: {e}")
+    return AgentResponse(answer=out["answer"], tool_calls=out["tool_calls"], thread_id=out["thread_id"])
