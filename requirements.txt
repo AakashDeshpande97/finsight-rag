@@ -7,3 +7,5 @@ sentence-transformers
 chromadb==1.5.9
 rank_bm25
 langfuse
+langgraph
+langchain-google-genai
