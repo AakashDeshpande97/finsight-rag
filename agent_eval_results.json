@@ -1,0 +1,117 @@
+[
+  {
+    "type": "sql",
+    "question": "Which 3 companies reporting in USD had the highest net income?",
+    "expected_tools": [
+      "query_financials"
+    ],
+    "expected_answer": "Microsoft Corporation has the highest net income (about $72.7 billion), followed by HCA Healthcare and AstraZeneca.",
+    "key_fact": "Microsoft",
+    "agent_answer": "Based on the financial reports, the 3 companies reporting in USD with the highest net income are:\n\n1. **Microsoft Corporation** - $72,738,000,000 (PDF page 35)\n2. **HCA Healthcare, Inc.** - $6,834,000,000 (PDF page 71)\n3. **AstraZeneca** - $3,288,000,000 (PDF page 140)",
+    "tools_used": [
+      "query_financials"
+    ],
+    "tools_ok": true,
+    "answer_ok": true,
+    "judge_reason": ""
+  },
+  {
+    "type": "sql",
+    "question": "How many companies in the database report in AUD?",
+    "expected_tools": [
+      "query_financials"
+    ],
+    "expected_answer": "14 companies report in AUD.",
+    "key_fact": "14",
+    "agent_answer": "There are 14 companies in the database that report in AUD:\n\n1. Aeeris Ltd\n2. Benjamin Hornigold Ltd\n3. BetMakers Technology Group Ltd\n4. Downer EDI Limited\n5. Elixir Energy Limited\n6. Incitec Pivot Limited\n7. Kelly Partners Group Holdings Limited\n8. Mosaic Brands Limited\n9. OFX Group Limited\n10. Odyssey Gold Limited\n11. Peako Limited\n12. Rectifier Technologies Ltd\n13. Suncorp Group\n14. archTIS Limited",
+    "tools_used": [
+      "query_financials"
+    ],
+    "tools_ok": true,
+    "answer_ok": true,
+    "judge_reason": ""
+  },
+  {
+    "type": "sql",
+    "question": "What was ACRES Commercial Realty's net income for its fiscal year?",
+    "expected_tools": [
+      "query_financials"
+    ],
+    "expected_answer": "Net income of $10,426,000 (USD), PDF page 95.",
+    "key_fact": "10,426",
+    "agent_answer": "For its fiscal year 2022, ACRES Commercial Realty Corp. reported a net income of **$10,426,000** (or $10,426 thousands) (PDF page 95).",
+    "tools_used": [
+      "query_financials",
+      "search_reports"
+    ],
+    "tools_ok": true,
+    "answer_ok": true,
+    "judge_reason": ""
+  },
+  {
+    "type": "documents",
+    "question": "How much notice must the CEO of Downer EDI give to resign?",
+    "expected_tools": [
+      "search_reports"
+    ],
+    "expected_answer": "Six months' written notice.",
+    "key_fact": "six months",
+    "agent_answer": "Based on Downer EDI Limited's annual report, the CEO (Managing Director and Chief Executive Officer, Mr Fenn) must give **six months' written notice** to resign (PDF page 51, and referenced on pages 28, 48, 49, and 138).",
+    "tools_used": [
+      "query_financials",
+      "search_reports"
+    ],
+    "tools_ok": true,
+    "answer_ok": true,
+    "judge_reason": ""
+  },
+  {
+    "type": "documents",
+    "question": "Did ACRES Commercial Realty pay any common share distributions in 2022?",
+    "expected_tools": [
+      "search_reports"
+    ],
+    "expected_answer": "No. The company did not pay any common share distributions in 2022.",
+    "agent_answer": "According to ACRES Commercial Realty Corp.'s annual report, the company **did not pay any common share distributions** for the year ended December 31, 2022 (e.g., pages 47, 49, 76, 82, 122, 131, 133).",
+    "tools_used": [
+      "search_reports"
+    ],
+    "tools_ok": true,
+    "answer_ok": true,
+    "judge_reason": "The assistant answer correctly states that ACRES Commercial Realty did not pay any common share distributions for the year 2022, matching the expected answer."
+  },
+  {
+    "type": "both",
+    "question": "Which USD company had the biggest loss, and what does its report say caused it?",
+    "expected_tools": [
+      "query_financials",
+      "search_reports"
+    ],
+    "expected_answer": "Aurora Innovation had the biggest loss (about $1.7 billion); a large driver was a goodwill impairment of $1,114 million, plus research and development expenses.",
+    "key_fact": "goodwill impairment",
+    "agent_answer": "Among the USD-denominated companies, **Aurora Innovation, Inc.** had the biggest loss for the fiscal year, with a net loss of **$1,723,000,000** (USD) (reported on PDF page 55).\n\nAccording to its annual report (PDF page 69), the net loss of $1,723 million in 2022 was driven by:\n* High operating expenses, particularly significant **Research and Development (R&D)** costs ($677 million) and **Selling, General, and Administrative (SG&A)** expenses ($129 million) incurred to develop and commercialize its self-driving technology before generating substantial commercial revenues.\n* A non-cash **goodwill impairment of $1,114 million** recognized during the twelve months ended December 31, 2022.",
+    "tools_used": [
+      "query_financials",
+      "search_reports",
+      "search_reports"
+    ],
+    "tools_ok": true,
+    "answer_ok": true,
+    "judge_reason": ""
+  },
+  {
+    "type": "unanswerable",
+    "question": "What will NextNav's revenue be in 2030?",
+    "expected_tools": [],
+    "expected_answer": "The reports do not contain this information; the agent should not invent a forecast.",
+    "agent_answer": "I was unable to find any projections or estimates for NextNav's revenue in the year 2030 in NextNav Inc.'s annual report.",
+    "tools_used": [
+      "search_reports",
+      "search_reports",
+      "query_financials"
+    ],
+    "tools_ok": true,
+    "answer_ok": true,
+    "judge_reason": "The assistant correctly identified that the annual report does not contain revenue projections for 2030 and did not invent any information."
+  }
+]

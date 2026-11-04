@@ -1,0 +1,49 @@
+[
+  {
+    "type": "sql",
+    "question": "Which 3 companies reporting in USD had the highest net income?",
+    "expected_tools": ["query_financials"],
+    "expected_answer": "Microsoft Corporation has the highest net income (about $72.7 billion), followed by HCA Healthcare and AstraZeneca.",
+    "key_fact": "Microsoft"
+  },
+  {
+    "type": "sql",
+    "question": "How many companies in the database report in AUD?",
+    "expected_tools": ["query_financials"],
+    "expected_answer": "14 companies report in AUD.",
+    "key_fact": "14"
+  },
+  {
+    "type": "sql",
+    "question": "What was ACRES Commercial Realty's net income for its fiscal year?",
+    "expected_tools": ["query_financials"],
+    "expected_answer": "Net income of $10,426,000 (USD), PDF page 95.",
+    "key_fact": "10,426"
+  },
+  {
+    "type": "documents",
+    "question": "How much notice must the CEO of Downer EDI give to resign?",
+    "expected_tools": ["search_reports"],
+    "expected_answer": "Six months' written notice.",
+    "key_fact": "six months"
+  },
+  {
+    "type": "documents",
+    "question": "Did ACRES Commercial Realty pay any common share distributions in 2022?",
+    "expected_tools": ["search_reports"],
+    "expected_answer": "No. The company did not pay any common share distributions in 2022."
+  },
+  {
+    "type": "both",
+    "question": "Which USD company had the biggest loss, and what does its report say caused it?",
+    "expected_tools": ["query_financials", "search_reports"],
+    "expected_answer": "Aurora Innovation had the biggest loss (about $1.7 billion); a large driver was a goodwill impairment of $1,114 million, plus research and development expenses.",
+    "key_fact": "goodwill impairment"
+  },
+  {
+    "type": "unanswerable",
+    "question": "What will NextNav's revenue be in 2030?",
+    "expected_tools": [],
+    "expected_answer": "The reports do not contain this information; the agent should not invent a forecast."
+  }
+]

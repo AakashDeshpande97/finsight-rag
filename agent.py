@@ -2,7 +2,7 @@
   - query_financials: SQL over the key figures of all 100 companies (structured data)
   - search_reports:   the RAG pipeline over the report text (unstructured data)
 
-    python agent.py "Which 3 companies had the highest net income in USD?"
+    python agent.py "Which 3 companies reporting in USD had the highest net income?"
 """
 import json
 import os
@@ -76,6 +76,7 @@ SYSTEM_PROMPT = """You are a financial analyst assistant for 100 corporate annua
 - Base every statement on tool results and mention the PDF page when you have one.
 - If the tools do not provide the answer, say so. Do not guess."""
 
+
 def make_llm(model):
     return ChatGoogleGenerativeAI(
         model=model,
@@ -103,21 +104,36 @@ builder.add_edge("tools", "agent")                         # tool results go bac
 graph = builder.compile()
 
 
-def run(question):
+def _text(content):
+    if isinstance(content, list):          # some Gemini versions return content blocks
+        return "".join(b.get("text", "") if isinstance(b, dict) else str(b) for b in content)
+    return content
+
+
+def ask_agent(question):
+    """Run the agent and RETURN the answer plus every tool call (used by the API and evaluation)."""
     result = graph.invoke(
         {"messages": [HumanMessage(question)]},
         config={"recursion_limit": 12, "callbacks": [CallbackHandler()]},  # cap the loop + trace it
     )
+    tool_calls, tool_results = [], []
     for msg in result["messages"][1:]:
         for call in getattr(msg, "tool_calls", None) or []:
-            print(f"  🔧 {call['name']}({call['args']})")
+            tool_calls.append({"tool": call["name"], "args": call["args"]})
         if msg.type == "tool":
-            print(f"  📦 {msg.content[:300]}")
-    content = result["messages"][-1].content
-    if isinstance(content, list):          # some Gemini versions return content blocks
-        content = "".join(b.get("text", "") if isinstance(b, dict) else str(b) for b in content)
-    print(f"\nAnswer:\n{content}")
-    return result
+            tool_results.append(_text(msg.content))
+    return {"answer": _text(result["messages"][-1].content),
+            "tool_calls": tool_calls, "tool_results": tool_results}
+
+
+def run(question):
+    """Run the agent and PRINT the steps (for manual testing)."""
+    out = ask_agent(question)
+    for call, res in zip(out["tool_calls"], out["tool_results"]):
+        print(f"  🔧 {call['tool']}({call['args']})")
+        print(f"  📦 {res[:300]}")
+    print(f"\nAnswer:\n{out['answer']}")
+    return out
 
 
 if __name__ == "__main__":
