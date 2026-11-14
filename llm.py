@@ -3,11 +3,12 @@ import os
 import time
 
 from google import genai
-from google.genai import errors
+from google.genai import errors, types
 
 from tracing import langfuse, observe
 
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"],
+                      http_options=types.HttpOptions(api_version="v1beta"))
 MODELS = ["gemini-flash-lite-latest", "gemini-flash-latest"]
 
 

@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
-google-genai
+google-genai==2.25.0
 python-dotenv
 pydantic
 sentence-transformers
@@ -8,4 +8,4 @@ chromadb==1.5.9
 rank_bm25
 langfuse
 langgraph
-langchain-google-genai
+langchain-google-genai==4.4.2

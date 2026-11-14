@@ -16,6 +16,7 @@ ENV HF_HUB_OFFLINE=1
 # 4. Data: vector database + company list
 COPY chroma_db ./chroma_db
 COPY data/archive/subset.json ./data/subset.json
+COPY financials.db ./financials.db
 
 # 5. Code last (changes most often -> fast rebuilds)
 COPY *.py ./
